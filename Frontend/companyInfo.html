@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$.get("components/navigation.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+<!--end of Navigation bar-->
+
+<main>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
+</main>
+
+<!--Footer-->
+<div id="footer-placeholder">
+
+</div>
+
+<script>
+$.get("components/footer.html", function(data){
+    $("#footer-placeholder").replaceWith(data);
+});
+</script>
+<!--end of Footer-->
+</body>
