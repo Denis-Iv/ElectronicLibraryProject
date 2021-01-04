@@ -1,14 +1,22 @@
 <!DOCTYPE html>
+<html lang="en"> 
 
 <head>
-    <link rel="stylesheet" href="css/style.css">
+    <title>E-Library</title>
+    <meta charset="utf-8" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>   
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
 </head>
 
 <body>
-   <!--Navigation bar-->
-<div id="nav-placeholder">
+ 
+<!--Navigation bar-->
+<!-- Needs web server   
+    <div id="nav-placeholder">
 
 </div>
 
@@ -17,6 +25,10 @@ $.get("components/navigation.html", function(data){
     $("#nav-placeholder").replaceWith(data);
 });
 </script>
+-->
+
+<div id="nav-placeholder"></div>        
+    <script src="js/components/generate-nav.js?id=index" id="generate-nav"></script>
 <!--end of Navigation bar-->
         
     <main>
@@ -41,8 +53,12 @@ $.get("components/navigation.html", function(data){
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
     </main>
+
+    
+
 <!--Footer-->
-    <div id="footer-placeholder">
+ <!-- Needs web server   
+     <div id="footer-placeholder">
 
     </div>
     
@@ -51,5 +67,12 @@ $.get("components/navigation.html", function(data){
         $("#footer-placeholder").replaceWith(data);
     });
     </script>
+-->
+
+
+
+<div id="footer-placeholder"></div>        
+<script src="js/components/generate-footer.js?id=index" id="generate-footer"></script>
 <!--end of Footer-->
 </body>
+</html>
