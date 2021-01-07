@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en"> 
-
+<html>
 <head>
-    <title>E-Library</title>
-    <meta charset="utf-8" />
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">    
+<title>Електронна библиотека</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>   
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
 <body>
- 
-<!--Navigation bar-->
-<!-- Needs web server   
-    <div id="nav-placeholder">
+    <body>
+   <!--Navigation bar-->
+<div id="nav-placeholder">
 
 </div>
 
@@ -24,55 +24,781 @@
 $.get("components/navigation.html", function(data){
     $("#nav-placeholder").replaceWith(data);
 });
-</script>
--->
 
-<div id="nav-placeholder"></div>        
-    <script src="js/components/generate-nav.js?id=index" id="generate-nav"></script>
+
+</script>
 <!--end of Navigation bar-->
         
-    <main>
-        <div class="hero-image">  
-            <img src="img/hero-image.png">         
-            <div class="hero-text">
-              <h1>Welcome to E-Library!</h1>
-              <p>Enjoy looking through our collection of e-books.</p>          
-            </div>
+<main>
+  <div class="hero-image">  
+    <img src="img/hero-image.png">         
+      <div class="hero-text">
+        <h1>Welcome to E-Library!</h1>
+          <p>Enjoy looking through our collection of e-books.</p> 
+      </div>
+     </div>
+
+     <div id="nav" align="center">
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+        <li><a href="companyInfo.html">За нас</a></li>
+        <li><a href="bulgarianBooks.html">Българска литература</a></li>
+        <li><a href="#">Чуждестранна литература на български език</a></li>
+        <li><a href="#">Чуждестранна литература на английски език</a></li>
+        </ul>
         </div>
 
-        <h1>Lorem Ipsum</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
-    </main>
+<br><br>
+  <div class="container">
+    <div class="row">
+       <div class="col-md-6 col-sm-6 col-xs-12">
+        <h3>Българска литература</h3>
+       </div>
+    <div class="col-md-6 col-sm-6 col-xs-6 hidden-xs">
+    <div class="controls pull-right">
+      <a class="left fa fa-chevron-left btn btn-infos " href="#product-slider-bootstrap1" data-slide="prev"></a><a class="right fa fa-chevron-right btn btn-infos" href="#product-slider-bootstrap1" data-slide="next"></a>
+    </div>
+    </div>
+</div>
+<div id="product-slider-bootstrap1" class="carousel slide hidden-xs" data-ride="carousel" data-type="multi">
+   <div class="carousel-inner">
+    <div class="item active">
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-12">
+        <div class="slider-item">
+        <div class="slider-main-detail">
+        <div class="slider-detail">
+        <div class="product-detail">
+        <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/pytuvane-kym-sebe-si.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Пътуване към себе си"</h3>
+          <h4 class="index">Блага Димитрова </h4>
+        <p class="info">„Пътуване към себе си“ е книга за заминаването, за бягството, за пътя, по който поемаме в търсене на собствената си идентичност. Тук преживяванията са разказани като спомен, а самата история е своеобразен опит за преосмисляне на времето.
+    </p>
+    <a href="books/Bulgarian books/Pytuvane-Kym-Sebe-Si.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+       </div>
+     </div>
+    </div>
+  </div>
+</div>
 
-    
+<div class="col-md-3 col-sm-3 col-xs-12">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+      <div class="slider-detail">
+        <div class="product-detail">
+        <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/imalo-edno-vreme.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Имало едно време"</h3>
+          <h4 class="index">Ангел Каралийчев </h4>
+        <p class="info">Приказният свят на Ангел Каралийчев е с едни от най-хубавите истории, излезли изпод перото на един от най-обичаните български детски писатели. Сборникът "Имало едно време" е написан през 1968 и е един от най - известните на писателя.
+    </p>
+    <a href="books/Bulgarian books/Imalo-Edno-Vreme.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
 
+<div class="col-md-3 col-sm-3 col-xs-12">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+      <div class="slider-detail">
+        <div class="product-detail">
+        <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/geracite.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Гераците"</h3>
+          <h4 class="index"> Елин Пелин </h4>
+        <p class="info">„Гераците“ е повест от българския писател белетрист Елин Пелин. Повестта проследява разпадането на рода на семейството на богатия чорбаджия Йордан Герака след смъртта на неговата съпруга и душевен център на семейството, баба Марга. 
+    </p>
+    <a href="books/Bulgarian books/Geratsite.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-12">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+      <div class="slider-detail">
+        <div class="product-detail">
+          <div class="box">
+          <div class="box-inner">
+          <div class="box-front">
+         <img src="img/motorni-pesni.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Моторни песни"</h3>
+          <h4 class="index"> Никола Вапцаров </h4>
+        <p class="info">„Моторни песни“ е единствената стихосбирка на Никола Вапцаров. Стихосбирката съдържа 21 песни написани на български език. 
+    </p>
+    <a href="books/Bulgarian books/Motorni-Pesni.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="row">
+    <div class="col-md-3 col-sm-3 col-xs-12">
+      <div class="slider-item">
+        <div class="slider-main-detail">
+          <div class="slider-detail">
+           <div class="product-detail">
+            <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/vecheri-v-antimovskiya-han.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Вечери в Антимовския хан"</h3>
+          <h4 class="index">Йордан Йовков</h4>
+        <p class="info">„Вечери в Антимовския хан“ е цикъл от разкази на Йордан Йовков. Критиката я нарича „една от най-мъдрите книги на Йовков, с дълбоко философско обобщение за живота, за това, което отминава и за това, което остава.“
+    </p>
+    <a href="books/Bulgarian books/Vecheri-v-Antimovskiya-Han.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+       </div>
+      </div>
+    </div>
+   </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-12">
+   <div class="slider-item">
+      <div class="slider-main-detail">
+          <div class="slider-detail">
+          <div class="product-detail">
+           <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/pod-igoto.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Под игото"</h3>
+          <h4 class="index">Иван Вазов </h4>
+        <p class="info">Роман из живота на българите в предвечерието на Освобождението. „Под игото“ е роман в три части от българския писател Иван Вазов, цялостно публикуван за първи път през 1894 г. и определян като първият пример за този жанр в българската литература.
+    </p>
+    <a href="books/Bulgarian books/Pod-Igoto.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+        </div>
+       </div>
+     </div>
+    </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-12">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+      <div class="slider-detail">
+        <div class="product-detail">
+         <div class="box">
+      <div class="box-inner">
+        <div class="box-front">
+         <img src="img/762.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Железният светилник"</h3>
+          <h4 class="index">Димитър Талев </h4>
+        <p class="info">„Железният светилник“ е исторически роман и първата книга от известната тетралогия на Димитър Талев. Романът е публикуван през 1952 г. В него са отразени българските борби за политическа и църковна независимост. 
+    </p>
+    <a href="books/Bulgarian books/Zhelezniyat-svetilnik.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+     </div>
+    </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-12">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+       <div class="slider-detail">
+          <div class="product-detail">
+           <div class="box">
+      <div class="box-inner">
+        <div class="box-front">
+         <img src="img/podir-senkite-na-oblatsite.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Подир сенките на облаците"</h3>
+          <h4 class="index">Пейо Яворов </h4>
+        <p class="info">"Подир сенките на облаците" излиза за първи път през 1910г. Пейо Яворов е български поет символист. Наричан още майстор на любовната лирика. След като се мести в София, Яворов става сътрудник и редактор в списание "Мисъл".
+    </p>
+    <a href="books/Bulgarian books/Podir-Senkite-na-Oblatsite.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+        </div>
+       </div>
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+       <div class="col-md-6 col-sm-6 col-xs-13">
+        <h3>Чуждестранна литература на български език</h3>
+       </div>
+    <div class="col-md-6 col-sm-6 col-xs-13 hidden-xs">
+    <div class="controls pull-right">
+      <a class="left fa fa-chevron-left btn btn-infos" href="#product-slider-bootstrap2" data-slide="prev"></a><a class="right fa fa-chevron-right btn btn-infos" href="#product-slider-bootstrap2" data-slide="next"></a>
+    </div>
+    </div>
+</div>
+<div id="product-slider-bootstrap2" class="carousel slide hidden-xs" data-ride="carousel" data-type="multi">
+   <div class="carousel-inner">
+    <div class="item active">
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-13">
+        <div class="slider-item">
+        <div class="slider-main-detail">
+        <div class="slider-detail">
+        <div class="product-detail">
+        <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/beladona.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Беладона"</h3>
+          <h4 class="index">Карън Молине </h4>
+        <p class="info">"Беладона" ни разкрива древен обред на един лондонски клуб оцелял от средните векове до днес. Негови членове са тринайсет свръхбогати английски благородници, които се събират на всеки три години, за да наддават за отвлечена красива девойка без родители. 
+    </p>
+    <a href="books/Foreign books-Bulgarian/Beladona.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+       </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-13">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+      <div class="slider-detail">
+        <div class="product-detail">
+        <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/bliznachkite.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Близначките"</h3>
+          <h4 class="index">Саския Сарджинсън </h4>
+        <p class="info">Пленителен разказ за повратните точки в човешкия живот, това е роман за необичайната връзка между близнаците, за тайните, които всички носим със себе си, и за тяхното понякога разрушително въздействие върху бъдещето ни.
+    </p>
+    <a href="books/Foreign books-Bulgarian/Bliznachkite.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-13">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+      <div class="slider-detail">
+        <div class="product-detail">
+        <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/blus-v-lyatna-nosht.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Блус в лятна нощ"</h3>
+          <h4 class="index"> Пат Конрой </h4>
+        <p class="info">Лирична сага за три полколения американци, белязани от трагичното си европейско минало. Вълнуващ роман за живота и смъртта, за трудния път към истината, за бремето на спомените, за крехкия свят на мечтите и любовта.
+    </p>
+    <a href="books/Foreign books-Bulgarian/Blus-v-lyatna-nosht.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-13">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+      <div class="slider-detail">
+        <div class="product-detail">
+          <div class="box">
+          <div class="box-inner">
+          <div class="box-front">
+         <img src="img/byalata-kyshta.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Бялата къща"</h3>
+          <h4 class="index"> Джон Гришам </h4>
+        <p class="info">„Бялата къща“ е роман от американския писател Джон Гришам, публикуван през 2001 година. Историята е вдъхновена от детството на автора в Арканзас по време на войната с Корея.
+    </p>
+    <a href="books/Foreign books-Bulgarian/Byalata-kyshta.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="row">
+    <div class="col-md-3 col-sm-3 col-xs-13">
+      <div class="slider-item">
+        <div class="slider-main-detail">
+          <div class="slider-detail">
+           <div class="product-detail">
+            <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/vnimavai-kakvo-si-pojelavash.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Внимавай какво си пожелаваш"</h3>
+          <h4 class="index">Джефри Арчър</h4>
+        <p class="info">"Внимавай какво си пожелаваш" е вълнуваща история за любов, отмъщение, амбиция и измяна. С какво предизвикателство ще се сблъска този път Хари Клифтън? И дали отново ще успее да се справи с него?
+    </p>
+    <a href="books/Foreign books-Bulgarian/Vnimavai-kakvo-si-pojelavash.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+       </div>
+      </div>
+    </div>
+   </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-13">
+   <div class="slider-item">
+      <div class="slider-main-detail">
+          <div class="slider-detail">
+          <div class="product-detail">
+           <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/vryava-i-bezumstvo.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Врява и безумство"</h3>
+          <h4 class="index">Уилям Фокнър</h4>
+        <p class="info">Врява и безумство е роман, написан от американския автор Уилям Фокнър. В него откриваме няколко различни стила на разказване, включително техниката известна като поток на съзнанието.
+    </p>
+    <a href="books/Foreign books-Bulgarian/Vryava-i-bezumstvo.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+        </div>
+       </div>
+     </div>
+    </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-13">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+      <div class="slider-detail">
+        <div class="product-detail">
+         <div class="box">
+      <div class="box-inner">
+        <div class="box-front">
+         <img src="img/vyzmushtenie.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Възмущение"</h3>
+          <h4 class="index">Филип Рот </h4>
+        <p class="info">Този великолепен и смущаващ роман на Филип Рот задълбава в неизследвани кътчета на една щедро експлоатирана, но едностранчиво интерпретирана епоха — 50-те години на XX в. в САЩ, време на война и неспокойствие в нравите.
+    </p>
+    <a href="books/Foreign books-Bulgarian/Vyzmushtenie.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+     </div>
+    </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-13">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+       <div class="slider-detail">
+          <div class="product-detail">
+           <div class="box">
+      <div class="box-inner">
+        <div class="box-front">
+         <img src="img/golgota.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Голгота"</h3>
+          <h4 class="index">Чингиз Айтматов</h4>
+        <p class="info">Романът на Чингиз Айтматов представя хаоса и дисхармонията в човешките отношения, тъмната и светлата страна на живота, но е и израз на тревогата на автора за отнетата вяра в нравствената чистота и идеалите. 
+    </p>
+    <a href="books/Foreign books-Bulgarian/Golgota.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+        </div>
+       </div>
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+    <div class="row">
+       <div class="col-md-6 col-sm-6 col-xs-13">
+        <h3>Чуждестранна литература на английски език</h3>
+       </div>
+    <div class="col-md-6 col-sm-6 col-xs-13 hidden-xs">
+    <div class="controls pull-right">
+      <a class="left fa fa-chevron-left btn btn-infos" href="#product-slider-bootstrap3" data-slide="prev"></a><a class="right fa fa-chevron-right btn btn-infos" href="#product-slider-bootstrap3" data-slide="next"></a>
+    </div>
+    </div>
+</div>
+<div id="product-slider-bootstrap3" class="carousel slide hidden-xs" data-ride="carousel" data-type="multi">
+   <div class="carousel-inner">
+    <div class="item active">
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-13">
+        <div class="slider-item">
+        <div class="slider-main-detail">
+        <div class="slider-detail">
+        <div class="product-detail">
+        <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/the-great-gatsby.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"The Great Gatsby"</h3>
+          <h4 class="index">F. Scott Fitzgerald </h4>
+        <p class="info"> Set in the Jazz Age on Long Island, the novel depicts narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan.
+    </p>
+    <a href="books/English books/the-great-gatsby.pdf" download>
+        <button>Чети</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+       </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-13">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+      <div class="slider-detail">
+        <div class="product-detail">
+        <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/Littleprince.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"The Little Prince"</h3>
+          <h4 class="index"> Antoine de Saint-Exupéry </h4>
+        <p class="info">The story follows a young prince who visits various planets in space, including Earth, and addresses themes of loneliness, friendship, love, and loss. Despite its style as a children's book, The Little Prince makes observations about life and human nature.
+    </p>
+    <a href="books/English books/the_little_prince.pdf" download>
+        <button>Read</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-13">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+      <div class="slider-detail">
+        <div class="product-detail">
+        <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/the-diary-of-a-young-girl.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"The Diary of a Young Girl"</h3>
+          <h4 class="index">  Anne Frank  </h4>
+        <p class="info">The Diary of a Young Girl is a book of the writings from the Dutch-language diary kept by Anne Frank while she was in hiding for two years with her family during the Nazi occupation of the Netherlands. 
+    </p>
+    <a href="books/English books/the_diary_of_a_young_girl.pdf" download>
+        <button>Read</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-13">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+      <div class="slider-detail">
+        <div class="product-detail">
+          <div class="box">
+          <div class="box-inner">
+          <div class="box-front">
+         <img src="img/a-christmas-carol.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"A Christmas Carol"</h3>
+          <h4 class="index"> Charles Dickens </h4>
+        <p class="info"> Christmas Carol recounts the story of Ebenezer Scrooge, an elderly miser who is visited by the ghost of his former business partner Jacob Marley and the spirits of Christmas Past, Present and Yet to Come. After their visits, Scrooge is transformed into a kinder, gentler man.
+    </p>
+    <a href="books/English books/a_cristmas_carol.pdf" download>
+        <button>Read</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="row">
+    <div class="col-md-3 col-sm-3 col-xs-13">
+      <div class="slider-item">
+        <div class="slider-main-detail">
+          <div class="slider-detail">
+           <div class="product-detail">
+            <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/pride_and_prejudice.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Pride and Prejudice"</h3>
+          <h4 class="index">Jane Austen</h4>
+        <p class="info">The novel follows the character development of Elizabeth Bennet. Its humour lies in its honest depiction of manners, education, marriage, and money during the Regency era in Great Britain.
+    </p>
+    <a href="books/English books/pride_and_prejudice.pdf" download>
+        <button>Read</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+       </div>
+      </div>
+    </div>
+   </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-13">
+   <div class="slider-item">
+      <div class="slider-main-detail">
+          <div class="slider-detail">
+          <div class="product-detail">
+           <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+         <img src="img/anne_of_green_gables.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Anne of Green Gables"</h3>
+          <h4 class="index"> Lucy Maud Montgomery </h4>
+        <p class="info">The novel recounts the adventures of Anne Shirley, who is mistakenly sent to two middle-aged siblings, Matthew and Marilla Cuthbert, who had originally intended to adopt a boy to help them on their farm in the fictional town of Avonlea in Prince Edward Island, Canada. 
+    </p>
+    <a href="books/English books/anne_of_green_gables.pdf" download>
+        <button>Read</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+        </div>
+       </div>
+     </div>
+    </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-13">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+      <div class="slider-detail">
+        <div class="product-detail">
+         <div class="box">
+      <div class="box-inner">
+        <div class="box-front">
+         <img src="img/romeo_and_juliet.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"Romeo and Juliet"</h3>
+          <h4 class="index">William Shakespeare </h4>
+        <p class="info">Romeo and Juliet is a tragedy written by William Shakespeare early in his career about two young star-crossed lovers whose deaths ultimately reconcile their feuding families.
+    </p>
+    <a href="books/English books/romeo_and_juliet.pdf" download>
+        <button>Read</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+     </div>
+    </div>
+</div>
+
+<div class="col-md-3 col-sm-3 col-xs-13">
+  <div class="slider-item">
+    <div class="slider-main-detail">
+       <div class="slider-detail">
+          <div class="product-detail">
+           <div class="box">
+      <div class="box-inner">
+        <div class="box-front">
+         <img src="img/the_canterville_ghost.jpg" width="225px"
+      height= "315px">
+        </div>
+        <div class="box-back">
+          <h3>"The Canterville Ghost"</h3>
+          <h4 class="index"> Oscar Wilde</h4>
+        <p class="info">The story is about an American family who move to a castle haunted by the ghost of a dead English nobleman, who killed his wife and was then walled in and starved to death by his wife's brothers.
+    </p>
+    <a href="books/English books/the_canterville_ghost.pdf" download>
+        <button>Read</button>
+    </a> 
+        </div>
+        </div>
+        </div>
+        </div>
+       </div>
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
 <!--Footer-->
- <!-- Needs web server   
-     <div id="footer-placeholder">
+    <div id="footer-placeholder">
 
     </div>
     
-    <script>
-    $.get("components/footer.html", function(data){
-        $("#footer-placeholder").replaceWith(data);
-    });
-    </script>
--->
-
-
-
-<div id="footer-placeholder"></div>        
-<script src="js/components/generate-footer.js?id=index" id="generate-footer"></script>
 <!--end of Footer-->
 </body>
 </html>
