@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> 
+
 <head>
-<title>Електронна библиотека</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Електронна библиотека</title>
+    <meta charset="utf-8" />
+    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>   
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">     
 </head>
+
 <body>
-    <body>
-   <!--Navigation bar-->
-<div id="nav-placeholder">
+ 
+<!--Navigation bar-->
+<!-- Needs web server   
+    <div id="nav-placeholder">
 
 </div>
 
@@ -24,31 +32,24 @@
 $.get("components/navigation.html", function(data){
     $("#nav-placeholder").replaceWith(data);
 });
-
-
 </script>
+-->
+
+<div id="nav-placeholder"></div>        
+    <script src="js/components/generate-nav.js?id=index" id="generate-nav"></script>
 <!--end of Navigation bar-->
         
-<main>
-  <div class="hero-image">  
-    <img src="img/hero-image.png">         
-      <div class="hero-text">
-        <h1>Welcome to E-Library!</h1>
-          <p>Enjoy looking through our collection of e-books.</p> 
-      </div>
-     </div>
-
-     <div id="nav" align="center">
-        <ul>
-            <li><a href="index.html">Начало</a></li>
-        <li><a href="companyInfo.html">За нас</a></li>
-        <li><a href="bulgarianBooks.html">Българска литература</a></li>
-        <li><a href="#">Чуждестранна литература на български език</a></li>
-        <li><a href="#">Чуждестранна литература на английски език</a></li>
-        </ul>
+    <main>
+        <div class="hero-image">  
+            <img src="img/hero-image.png">         
+            <div class="hero-text">
+              <h1>Добре дошли в нашата електронна библиотека!</h1>
+              <p>Забавлявайте се докато разглеждате нашата колекция от електронни книги.</p>          
+            </div>
         </div>
 
-<br><br>
+  <br>  
+
   <div class="container">
     <div class="row">
        <div class="col-md-6 col-sm-6 col-xs-12">
@@ -793,12 +794,27 @@ $.get("components/navigation.html", function(data){
 </div>
 </div>
 </div>
-</main>
+    </main>
+
+    
+
 <!--Footer-->
-    <div id="footer-placeholder">
+ <!-- Needs web server   
+     <div id="footer-placeholder">
 
     </div>
     
+    <script>
+    $.get("components/footer.html", function(data){
+        $("#footer-placeholder").replaceWith(data);
+    });
+    </script>
+-->
+
+
+
+<div id="footer-placeholder"></div>        
+<script src="js/components/generate-footer.js?id=index" id="generate-footer"></script>
 <!--end of Footer-->
 </body>
 </html>
