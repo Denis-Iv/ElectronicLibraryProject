@@ -3,6 +3,7 @@ package bg.tu.library.entity;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Builder
@@ -18,4 +19,8 @@ public class Author {
 
     @Column(name = "name", nullable = false)
     private String name;
+
+    @OneToMany(mappedBy = "author", fetch = FetchType.LAZY)
+
+    private List<Book>  books;
 }

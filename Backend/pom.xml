@@ -43,6 +43,11 @@
 			<artifactId>postgresql</artifactId>
 			<version>42.2.18</version>
 		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.7.0</version>
+		</dependency>
 
 	</dependencies>
 

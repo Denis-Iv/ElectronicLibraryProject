@@ -17,7 +17,7 @@ public class AuthorController {
     private final AuthorService authorService;
 
     @PostMapping(value = "/")
-    public ResponseEntity<Integer> createAuthor(@RequestBody Author author) {
+    public ResponseEntity<java.lang.Object> createAuthor(@RequestBody Author author) {
         return ResponseEntity.ok().body(authorService.save(author));
     }
 
