@@ -387,7 +387,13 @@ font-size:30px;
     background: #00d9ff; 
 }
 
-button {
+.buttonRead, .buttonFavourites {
+  background-color: #e7e7e7;
+  color: black;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
   border-radius: 8px;
 }
-
