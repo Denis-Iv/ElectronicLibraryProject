@@ -23,8 +23,8 @@
 <body>
  
 <!--Navigation bar-->
-<!-- Needs web server   
-    <div id="nav-placeholder">
+
+<div id="nav-placeholder">
 
 </div>
 
@@ -33,20 +33,22 @@ $.get("components/navigation.html", function(data){
     $("#nav-placeholder").replaceWith(data);
 });
 </script>
--->
 
-<div id="nav-placeholder"></div>        
-    <script src="js/components/generate-nav.js?id=index" id="generate-nav"></script>
-<!--end of Navigation bar-->
+<!--End of navigation bar-->
+
         
-    <main>
-        <div class="hero-image">  
-            <img src="img/hero-image.png">         
-            <div class="hero-text">
-              <h1>Електронна библиотека</h1>
-              <p>Добре дошли!</p>          
-            </div>
-        </div>
+<main>
+  <!--Index picture with text-->
+
+  <div class="hero-image">  
+    <img src="img/hero-image.png">         
+      <div class="hero-text">
+          <h1>Електронна библиотека</h1>
+          <p>Добре дошли!</p>          
+      </div>
+  </div>
+
+  <!--End of index picture with text-->
 
   <br>  
 
@@ -799,7 +801,7 @@ $.get("components/navigation.html", function(data){
     
 
 <!--Footer-->
- <!-- Needs web server   
+ 
      <div id="footer-placeholder">
 
     </div>
@@ -809,12 +811,8 @@ $.get("components/navigation.html", function(data){
         $("#footer-placeholder").replaceWith(data);
     });
     </script>
--->
+    
+<!--End of Footer-->
 
-
-
-<div id="footer-placeholder"></div>        
-<script src="js/components/generate-footer.js?id=index" id="generate-footer"></script>
-<!--end of Footer-->
 </body>
 </html>

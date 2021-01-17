@@ -2,6 +2,7 @@
 
 <head>
   <title>Чуждестранна литература на английски език</title>
+  <meta charset="utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">    
@@ -14,9 +15,19 @@
 </head>
 
 <body>
-<div id="nav-placeholder"></div>        
-    <script src="js/components/generate-nav.js?id=index" id="generate-nav"></script>
-<!--end of Navigation bar-->
+<!--Navigation bar-->
+
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$.get("components/navigation.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+
+<!--End of navigation bar-->
 <main>
 	<div class="hero-image">  
     <img src="img/hero-image.png">         
@@ -791,10 +802,17 @@
 </main>
 
 <!--Footer-->
-<div id="footer-placeholder"></div>        
-<script src="js/components/generate-footer.js?id=index" id="generate-footer"></script>
+ 
+<div id="footer-placeholder">
 
+</div>
 
-<!--end of Footer-->
+<script>
+$.get("components/footer.html", function(data){
+    $("#footer-placeholder").replaceWith(data);
+});
+</script>
+
+<!--End of Footer-->
   
 </body>
