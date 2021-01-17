@@ -8,9 +8,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>   
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-     
+        <link rel="stylesheet" type="text/css" href="css/style.css">  
     </head>
 
 <body>
@@ -32,8 +30,19 @@ $.get("components/navigation.html", function(data){
     <script src="js/components/generate-nav.js?id=index" id="generate-nav"></script>
 <!--end of Navigation bar-->
 
+<div class="banner-image">  
+    <img src="img/banner.png">    
+</div>
+
 <main>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
+   <div>
+       <input type="text" id="search" class="form-control form-control-lg" placeholder="Въведете автор, жанр, книга...">
+   </div>
+   <div class="match-list">
+
+   </div>
+
+   <script src="js/searchFilter.js"></script>
 </main>
 
 <!--Footer-->
