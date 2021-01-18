@@ -15,7 +15,7 @@ body {
 }
 
 main {
-    margin-left: 5rem; /* 1 rem = font-size */
+    margin-left: 5rem; 
     padding: 1rem;
 }
 
@@ -24,7 +24,7 @@ main {
 
 .navbar {
     width: 5rem;
-    height: 100vh; /* height of viewport */
+    height: 100vh; 
     position: fixed;
     background-color: var(--bg-primary);
     transition: width 200ms ease;
@@ -37,7 +37,7 @@ main {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* row by default */
+    display: flex; 
     flex-direction: column;
     align-items: center;
     height: 100%;
@@ -398,4 +398,15 @@ img{
 .banner-image > img {
     width: 99vw;
     max-height: 35vh;
+    filter: brightness(50%) opacity(80%);
+}
+
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 20vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    color: var(--text-secondary);
+    font-size:30px;
 }
