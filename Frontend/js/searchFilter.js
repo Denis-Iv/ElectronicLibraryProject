@@ -1,6 +1,8 @@
 const search = document.getElementById('search');
 const matchList = document.getElementById('match-list');
 
+search.addEventListener('input', () => searchBooks(search.value));
+
 const searchBooks = async searchText => {
     const res = await fetch('../Frontend/data/state_capitals.json');
     const books = await res.json();
@@ -11,6 +13,17 @@ const searchBooks = async searchText => {
     });    
 
     console.log(matches);
+
+    displayBooks(matches);
 };
 
-search.addEventListener('input', () => searchBooks(search.value));
+const displayBooks = (books) => {
+    const htmlString = books.map((book) => {
+        return `<p>book.name</p> `;
+    }).join('');
+    console.log(htmlString);
+
+    booksList.innerHTML = htmlString;
+
+    
+};
