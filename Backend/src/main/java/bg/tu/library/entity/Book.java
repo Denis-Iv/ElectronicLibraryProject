@@ -4,6 +4,8 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Builder
@@ -31,4 +33,9 @@ public class Book {
     @JsonIgnore
     private Author author;
 
+    @OneToMany(mappedBy = "book", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private List<BookRating> bookRatings = new ArrayList<>();
+
+    @Column(name = "cover")
+    private String cover;
 }

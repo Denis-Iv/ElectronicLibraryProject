@@ -1,8 +1,11 @@
 package bg.tu.library.service;
 
 import bg.tu.library.entity.Author;
+import bg.tu.library.exception.AuthorNotFoundException;
 import bg.tu.library.repository.AuthorRepository;
 import lombok.AllArgsConstructor;
+import org.springframework.data.domain.Example;
+import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,8 +20,9 @@ public class AuthorService {
         return authorRepository.save(author).getId();
     }
 
-    public Optional<Author> findById(Integer id) {
-        return authorRepository.findById(id);
+    public Author findById(Integer id) {
+        return authorRepository.findById(id)
+                               .orElseThrow(() -> new AuthorNotFoundException("Author with id " + id + " was not found!"));
     }
 
     public List<Author> findAll() {
@@ -31,7 +35,18 @@ public class AuthorService {
         if (authorOptional.isPresent()) {
             authorRepository.delete(authorOptional.get());
         } else {
-            throw new RuntimeException("Author not found");
+            throw new AuthorNotFoundException("Author with id " + id + " was not found!");
         }
+    }
+
+    public List<Author> findByName(String name) {
+        Example<Author> authorExample =
+                Example.of(Author.builder()
+                                 .name(name)
+                                 .build(), ExampleMatcher.matching()
+                                                         .withStringMatcher(ExampleMatcher.StringMatcher.CONTAINING)
+                                                         .withIgnoreCase());
+
+        return authorRepository.findAll(authorExample);
     }
 }
