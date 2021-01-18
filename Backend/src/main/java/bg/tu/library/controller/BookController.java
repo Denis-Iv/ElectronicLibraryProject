@@ -26,6 +26,13 @@ public class BookController {
         return ResponseEntity.noContent().build();
     }
 
+    @GetMapping(value = "/books/{category}")
+    public ResponseEntity getByCategory(@PathVariable("category") String category){
+        return bookService.findByCategory(category)
+                .map(ResponseEntity::ok)
+                .orElseGet(() -> ResponseEntity.status(HttpStatus.NOT_FOUND).build());
+    }
+
     @GetMapping(value = "/books")
     public ResponseEntity<List<Book>> findAll(){ return ResponseEntity.ok(bookService.findAll());}
 

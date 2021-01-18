@@ -1,7 +1,7 @@
 {
 	"folders": {},
 	"connections": {
-		"postgres-jdbc-176f6dc0623-431d7766104b3c0a": {
+		"postgres-jdbc-176f73e6d9c-5a7fd7f169432faf": {
 			"provider": "postgresql",
 			"driver": "postgres-jdbc",
 			"name": "postgres",
@@ -13,7 +13,7 @@
 				"port": "5432",
 				"database": "postgres",
 				"url": "jdbc:postgresql://localhost:5432/postgres",
-				"home": "postgresql_client",
+				"home": "postgresql-x64-13",
 				"type": "dev",
 				"provider-properties": {
 					"@dbeaver-show-non-default-db@": "false",

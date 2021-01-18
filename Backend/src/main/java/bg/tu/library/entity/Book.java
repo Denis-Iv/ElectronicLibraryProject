@@ -23,6 +23,9 @@ public class Book {
     @Column(name = "pages", nullable = false)
     private Integer pages;
 
+    @Column(name = "category", nullable = false)
+    private String category;
+
     @ManyToOne
     @JoinColumn(name = "author_id", nullable = false)
     @JsonIgnore

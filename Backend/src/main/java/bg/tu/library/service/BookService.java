@@ -44,4 +44,8 @@ public class BookService {
             throw new RuntimeException("Book not found");
         }
     }
+
+    public Optional<Book> findByCategory(String category){
+        return bookRepository.findByCategory(category);
+    }
 }
