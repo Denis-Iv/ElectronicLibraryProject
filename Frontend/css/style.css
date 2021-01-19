@@ -419,3 +419,40 @@ img{
     font-size: 20px; 
     text-align: center;    
 }
+
+/* Filtered books */
+
+#books-list {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
+
+.book {
+    list-style-type: none;
+    background-color: #eaeaea;
+    border-radius: 3px;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        'name image'
+        'house image';
+    text-align: left;
+}
+
+.book > h2 {
+    grid-area: name;
+    margin-bottom: 0px;
+}
+
+.book > p {
+    grid-area: house;
+    margin: 0;    
+}
+
+.book > img {
+    max-height: 100px;
+    grid-area: image;
+}
