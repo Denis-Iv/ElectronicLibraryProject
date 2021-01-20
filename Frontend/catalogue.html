@@ -35,20 +35,33 @@ $.get("components/navigation.html", function(data){
         </div> 
     </div>
     <hr>
-   <div>
-       <input type="text" id="search" class="form-control form-control-lg" placeholder="Въведете автор, жанр, книга...">
-   </div>
-   <div class="match-list">
-
-   </div>
 
    
+    <div>
+        
+    
+        <div>
+            <input type="text" id="search" class="form-control form-control-lg" placeholder="Въведете име на автор, жанр, заглавие на книга...">
+            <script src="js/searchFilter.js"></script>
+        </div>
+    
+        <div class="content-flow">       
+            <div class="side-options">
+                <div class="col">
+                    <p>asddassdadasdasdasasdsdasdasdasdasdasdadassdaasdsdaasdsdasdadassdadassdasdasdasda</p>
+                </div>                
+            </div>          
 
-   <div class="container">
-    <ul id="books-list"></ul>
-   </div>
-   <script src="js/searchFilter.js"></script>
-   
+            <div class="main-content">
+                <div class="col">                    
+                    <div>
+                        <ul id="books-list"></ul>        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </main>
 
 <!--Footer-->
