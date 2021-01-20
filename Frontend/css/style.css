@@ -1,6 +1,6 @@
 :root {
     font-size: 16px;
-    font-family: 'Verdana';
+    font-family: Arial, Helvetica, sans-serif;
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
     --bg-primary: #23232e;
@@ -64,7 +64,7 @@ main {
     filter: grayscale(100%) opacity(0.6); 
     font-size: 14px !important; 
     margin-right: 0.1rem;    
-    font-family: 'Verdana' !important;    
+    font-family: Arial, Helvetica, sans-serif !important; 
 }
 
 .logo .nav-link {
@@ -149,7 +149,7 @@ margin-top: -1rem;
     transform: translate(-50%, -50%);
     color: var(--text-secondary);
     font-size: 50px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
 
@@ -462,7 +462,7 @@ img{
 }
 
 .book > img {
-    max-height: 100px;
+    max-height: 250px;
     grid-area: image;
 }
 
