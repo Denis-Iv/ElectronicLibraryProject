@@ -11,7 +11,8 @@
 		"name": "Alaska",
 		"capital": "Juneau",
 		"lat": "58.301935",
-		"long": "-134.419740"
+		"long": "-134.419740",
+		"release_date": "1999"
 	},
 	{
 		"abbr": "AZ",
