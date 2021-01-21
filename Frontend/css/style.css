@@ -469,7 +469,7 @@ img{
 
 .book-tile > h1 {
     font-size: 1.75rem; 
-    margin: 3px 2px 3px 2px;  
+    margin: 1ch 1ch 1ch 1ch;  
 }
 
 .book-tile > h3 {
