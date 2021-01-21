@@ -41,18 +41,22 @@ $.get("components/navigation.html", function(data){
     <hr>
 
    
-    <div>
-        
-    
+    <div>     
         <div>
             <input type="text" id="search" class="form-control form-control-lg" placeholder="Въведете име на автор, жанр, заглавие на книга...">
-            <script src="js/searchFilter.js"></script>
+            
         </div>
+
+        
+        <button id="topBtn" title="Go to top">Top</button>
+ 
     
         <div class="content-flow">       
             <div class="side-options">
                 <div class="col">
-                    <p>asddassdadasdasdasasdsdasdasdasdasdasdadassdaasdsdaasdsdasdadassdadassdasdasdasda</p>
+                    <br>
+                    <h6>Жанрове</h6>
+                    <ul id="categories-list"></ul>
                 </div>                
             </div>          
 
@@ -81,6 +85,8 @@ $.get("components/footer.html", function(data){
 </script>
 
 <!--End of Footer-->
-  
+<script src="js/scrollToTop.js"></script>
+<script src="js/searchResults.js"></script>
+<script src="js/fetchFilters.js"></script>
 </body>
 </html>

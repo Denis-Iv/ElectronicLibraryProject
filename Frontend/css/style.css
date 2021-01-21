@@ -444,18 +444,25 @@ img{
 .side-options {
     display: flex;
     flex-wrap: wrap;
-}
-
-.side-options {
-    flex: 1 1 30%;
+    flex: 1 1 15%;
     min-width: 3rem;
+    margin-right: 1rem;
+    background-color: rgb(252, 228, 200);
+
 }
 
 .main-content {
-    flex: 1 1 70%;
+    display: flex;
+    flex: 1 1 75%;
     margin-right: 20vw;
+    margin-left: 1rem;
+    background-color: rgb(252, 228, 200);
 }
 
+.no-books {
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 /* Book tile */
 
@@ -485,5 +492,24 @@ img{
 }
 
 
+/* Scroll-to-top button */
 
+#topBtn {  
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;  
+    border: none; 
+    outline: none;
+    background-color: var(--bg-primary);
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+    z-index: 99;
+  }
+  
+  #topBtn:hover {
+    background-color: var(--bg-secondary);
+  }
 

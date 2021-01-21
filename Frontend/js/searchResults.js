@@ -1,5 +1,9 @@
 const search = document.getElementById('search');
-var booksList = null;
+const booksList = document.getElementById('books-list');
+
+document.addEventListener("DOMContentLoaded", function() {
+    searchBooks("");
+  });
 
 search.addEventListener('input', () => searchBooks(search.value));
 
@@ -12,13 +16,14 @@ const searchBooks = async searchText => {
         return book.description.match(regex) || book.imageurl.match(regex);
     });    
 
-    console.log(matches);
-    
-    displayBooks(matches);
-};
+    //console.log(matches);
 
-window.onload = function () {
-    booksList = document.getElementById('books-list');    
+    if (matches.length === 0) {
+        booksList.innerHTML = `<p class="no-books">No matches found.</p>`;
+    }
+    else {
+        displayBooks(matches);
+    }    
 };
 
 const displayBooks = (books) => {
@@ -46,7 +51,7 @@ const displayBooks = (books) => {
         `;
     }).join('');
 
-    console.log(htmlString);
+    //console.log(htmlString);
 
     booksList.innerHTML = htmlString;
 
