@@ -375,8 +375,6 @@ img{
   background: -o-linear-gradient(#fff, #999);
 }
 
-
-
 .buttonRead, .buttonFavourites {
   background-color: #e7e7e7;
   color: black;
@@ -413,14 +411,14 @@ img{
     font-size:30px;
 }
 
-/* About us */
+/* About us page */
 
 #credits {
     font-size: 20px; 
     text-align: center;    
 }
 
-/* Filtered books */
+/* Catalogue layout */
 
 #search {
     max-width: 60vw;
@@ -434,39 +432,9 @@ img{
 #books-list {
     padding-inline-start: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     grid-gap: 20px;
 }
-
-.book {
-    list-style-type: none;
-    background-color: #eaeaea;
-    border-radius: 3px;
-    padding: 10px 20px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-        'name image'
-        'author image';
-    text-align: left;
-}
-
-.book > h2 {
-    grid-area: name;
-    margin-bottom: 0px;
-}
-
-.book > p {
-    grid-area: author;
-    margin: 0;    
-}
-
-.book > img {
-    max-height: 250px;
-    grid-area: image;
-}
-
-/* Catalogue layout */
 
 .content-flow {    
     display: flex;    
@@ -480,12 +448,42 @@ img{
 
 .side-options {
     flex: 1 1 30%;
-    min-width: 5rem;
+    min-width: 3rem;
 }
 
 .main-content {
     flex: 1 1 70%;
     margin-right: 20vw;
 }
+
+
+/* Book tile */
+
+.book-tile {      
+    text-align: center;   	
+    border: 1px rgb(255, 214, 100);
+    border-style: groove;
+    box-shadow: 2px 3px 6px #888888;
+    background-color: rgb(253, 245, 227);
+}
+
+.book-tile > h1 {
+    font-size: 1.75rem; 
+    margin: 3px 2px 3px 2px;  
+}
+
+.book-tile > h3 {
+    font-size: 1.5rem ;  
+    text-align: left;   
+    margin-left: 3px;
+}
+
+.book-tile > h4 {
+    font-size: 1.25rem ; 
+    text-align: left; 
+    margin-left: 3px;   
+}
+
+
 
 
