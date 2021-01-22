@@ -1,19 +1,17 @@
 const search = document.getElementById('search');
 const booksList = document.getElementById('books-list');
+var currentCategory = document.getElementById('identifier').innerText;
 
-document.addEventListener("DOMContentLoaded", function() {
-    searchBooks("");
-  });
 
 search.addEventListener('input', () => searchBooks(search.value));
 
-const searchBooks = async searchText => {
+const searchBooks = async (searchText, categFilter) => {
     const res = await fetch('../Frontend/data/sample.json');
     const books = await res.json();
 
     let matches = books.filter(book => {
         const regex = new RegExp(`^${searchText}`, 'gi');
-        return book.description.match(regex) || book.imageurl.match(regex);
+        return (book.description.match(regex) || book.imageurl.match(regex)) && (book.category == currentCategory) && (book.description == categFilter || categFilter == "");
     });    
 
     //console.log(matches);
@@ -57,3 +55,5 @@ const displayBooks = (books) => {
 
     
 };
+
+searchBooks("","");

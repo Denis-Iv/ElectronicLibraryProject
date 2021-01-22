@@ -69,15 +69,18 @@
       },
       {
         "description":"Beautiful scenery",
-        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg"
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
       },
       {
         "description":"Some kind of bird",
-        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg"
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "ww"
       },
       {
         "description":"The attack of dragons",
-        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg"
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "en"
       },
       {
         "description":"Lady with a red umbrella",
@@ -158,5 +161,115 @@
       {
         "description":"The attack of dragons",
         "imageurl":"https://i.imgur.com/CHTtq9D.jpeg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautifury",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenry",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beauful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beaiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiul scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
+      },
+      {
+        "description":"Beautiful scenery",
+        "imageurl":"https://i.imgur.com/CHTtq9D.jpeg",
+        "category": "bg"
       }
 ]  
