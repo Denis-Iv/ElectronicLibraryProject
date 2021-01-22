@@ -5,13 +5,16 @@ var currentCategory = document.getElementById('identifier').innerText;
 
 search.addEventListener('input', () => searchBooks(search.value));
 
-const searchBooks = async (searchText, categFilter) => {
+const searchBooks = async (searchText, categFilter, authorFilter) => {
     const res = await fetch('../Frontend/data/sample.json');
     const books = await res.json();
 
     let matches = books.filter(book => {
         const regex = new RegExp(`^${searchText}`, 'gi');
-        return (book.description.match(regex) || book.imageurl.match(regex)) && (book.category == currentCategory) && (book.description == categFilter || categFilter == "");
+        return  (book.description.match(regex) || book.imageurl.match(regex)) && 
+                (book.category == currentCategory) && 
+                (book.description == categFilter || categFilter == "") &&
+                (book.description == authorFilter || authorFilter == "");
     });    
 
     //console.log(matches);
@@ -56,4 +59,17 @@ const displayBooks = (books) => {
     
 };
 
-searchBooks("","");
+searchBooks("","","");
+
+let categFilter = "";
+let authorFilter = "";
+
+function setCategFilter(value) {     
+    categFilter = value;
+    searchBooks("", categFilter, authorFilter);
+}
+
+function setAuthorFilter(value) {
+    authorFilter = value;
+    searchBooks(search.value, categFilter, authorFilter);
+}

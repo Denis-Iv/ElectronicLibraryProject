@@ -38,13 +38,7 @@ $.get("components/navigation.html", function(data){
             <h1>Каталог</h1>            
         </div> 
     </div>
-    <hr>
-
-    <script type="text/javascript">
-        function Filter(value) {            
-            searchBooks("", value);
-        }
-    </script>
+    <hr>    
    
     <div>     
         <div>
@@ -53,16 +47,42 @@ $.get("components/navigation.html", function(data){
         </div>
         
         <button id="topBtn" title="Go to top">Top</button> 
+        
+        <script>
+            $(function () {
+                $('#more-categories').click(function () {
+                    $('#categories-list li:hidden').slice(0, 10).show();
+                    if ($('#categories-list li').length == $('#categories-list li:visible').length) {
+                        $('#more-categories').hide();
+                    }
+                });
+            });
+        </script>
+
+        <script>
+            $(function () {
+                $('#more-authors').click(function () {
+                    $('#authors-list li:hidden').slice(0, 10).show();
+                    if ($('#authors-list li').length == $('#authors-list li:visible').length) {
+                        $('#more-authors').hide();
+                    }
+                });
+            });
+        </script>
     
         <div class="content-flow">       
             <div class="side-options">                
                 <div class="col">                    
-                    <h6>Категории</h6>                                      
+                    <h6>Категории</h6> 
                     <ul class="filters-list" id="categories-list">
                         
                     </ul>
+                    <span class="more-filters" id="more-categories">Покажи още</span>
                     <h6>Автори</h6>                                      
-                    <ul class="filters-list" id="authors-list"></ul>
+                    <ul class="filters-list" id="authors-list">
+
+                    </ul>
+                    <span class="more-filters" id="more-authors">Покажи още</span>
                 </div>                
             </div>          
 
