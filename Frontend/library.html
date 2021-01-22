@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Browse Library</title>
-        <meta charset="utf-8" />
-        
+        <title>Категории</title>
+        <meta charset="utf-8" />        
+     
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">    
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>   
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-     
     </head>
 
 <body>
@@ -36,7 +34,38 @@ $.get("components/navigation.html", function(data){
         </div> 
     </div>
     <hr>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis sapien tempor est vestibulum, vitae malesuada velit elementum. Morbi massa sem, porttitor id ipsum nec, pellentesque feugiat nibh. Pellentesque non convallis erat. Donec at convallis odio. Donec non lorem quis odio cursus eleifend ut vel arcu. Maecenas elementum at ipsum in ullamcorper. Aenean facilisis quis elit id tincidunt. Quisque in orci vel mauris ornare euismod. Donec purus leo, lacinia vel aliquam et, porttitor quis nisl. Pellentesque placerat tellus maximus neque viverra aliquam. Vivamus eget bibendum justo, a porta ligula. Proin lorem nisl, mattis eu condimentum ac, mattis non leo. Suspendisse aliquet luctus hendrerit.</p>
+
+
+        <div class="spaced-cols">
+            <div class="col">
+                <a href="bulgarianBooks.html">
+                    <img class="categ-img" src="img/categ1.png">
+                    <div id="categ1" class="categ-text"> 
+                        Български книги 
+                    </div>                 
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="foreignBooks.html">
+                    <img class="categ-img" src="img/categ2.jpg">
+                    <div class="categ-text"> 
+                        Чуждестранни книги на български език
+                    </div>                 
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="englishBooks.html">
+                    <img class="categ-img" src="img/categ3.jpg">
+                    <div class="categ-text"> 
+                        Чуждестранни книги на английски език
+                    </div>                 
+                </a>
+            </div>
+        </div>
+    
+   
 </main>
 
 <!--Footer-->

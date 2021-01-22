@@ -5,12 +5,12 @@
         <meta charset="utf-8" />
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>   
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>   
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">  
     </head>
@@ -46,17 +46,18 @@ $.get("components/navigation.html", function(data){
             <input type="text" id="search" class="form-control form-control-lg" placeholder="Въведете име на автор, жанр, заглавие на книга...">
             
         </div>
-
         
-        <button id="topBtn" title="Go to top">Top</button>
- 
+        <button id="topBtn" title="Go to top">Top</button> 
     
         <div class="content-flow">       
-            <div class="side-options">
-                <div class="col">
-                    <br>
-                    <h6>Жанрове</h6>
-                    <ul id="categories-list"></ul>
+            <div class="side-options">                
+                <div class="col">                    
+                    <h6>Категории</h6>                                      
+                    <ul class="filters-list" id="categories-list">
+                        
+                    </ul>
+                    <h6>Автори</h6>                                      
+                    <ul class="filters-list" id="authors-list"></ul>
                 </div>                
             </div>          
 

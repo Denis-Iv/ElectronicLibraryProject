@@ -155,8 +155,7 @@ margin-top: -1rem;
 
 /* Footer */
 
-.footer
-{
+.footer {
     margin-left: 5rem;
     margin-top: 50px;
     background: #000;
@@ -164,21 +163,17 @@ margin-top: -1rem;
     text-align: center; 
 }
 
-.footer a
-{    
+.footer a {    
     color: #fff;
     text-decoration: none;  
 }
-.footer h1
-{
+.footer h1 {
     font-size: 25px;
     margin: 13px 0;
 }
-.footer p
-{
+.footer p {
     font-size: 13px;    
-    display: inline-block;
-    
+    display: inline-block;    
 }
 
 .even-columns {
@@ -336,7 +331,7 @@ margin-top: -1rem;
   padding: 8px ;
 }
 
-img{
+.img {
   margin: 2px;
   border-color: black;
   border-style: solid;
@@ -447,6 +442,7 @@ img{
     flex: 1 1 15%;
     min-width: 3rem;
     margin-right: 1rem;
+    margin-left: 2rem;
     background-color: rgb(252, 228, 200);
 
 }
@@ -455,7 +451,7 @@ img{
     display: flex;
     flex: 1 1 75%;
     margin-right: 20vw;
-    margin-left: 1rem;
+    margin-left: 3rem;
     background-color: rgb(252, 228, 200);
 }
 
@@ -512,4 +508,64 @@ img{
   #topBtn:hover {
     background-color: var(--bg-secondary);
   }
+
+  /* Filters */
+
+  .col > h6 {
+      text-align: center;
+      font-size: 1.3rem;
+      margin: 1rem;
+      padding: 3px;
+  }
+
+  .filters-list {
+      list-style-type: none;
+      padding: 5px;
+      font-size: 0.9rem;
+  }
+
+  .filter-select {
+      margin-right: 1ch;
+  }
+
+ /* Category page */
+
+ .spaced-cols {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));    
+    margin-left: 6rem;
+}
+
+.col {
+    width: 350px !important;
+}
+
+
+.categ-img {
+    border: 2px black;
+    border-style: solid;  
+    filter: brightness(80%) grayscale(25%);
+    position: relative;
+}
+
+.categ-text {         
+    font-size: 30px; 
+    text-decoration: none;
+    color: rgb(243, 178, 81); 
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    margin-right: 30px;  
+    left: 70px;
+    position: absolute;
+    text-align: center;
+    top: 160px;     
+    filter:blur(0.3px);
+}
+
+#categ1 {
+    left: 80px;
+    top: 200px;
+}
+
+
 
