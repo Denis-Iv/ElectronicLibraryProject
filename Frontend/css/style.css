@@ -535,6 +535,12 @@ margin-top: -1rem;
       padding: 3px;
   }
 
+  .col > span {
+      margin-left: 1.5rem;
+      text-align: center;
+  }
+
+
   .filters-list {
       list-style-type: none;
       padding: 5px;
@@ -546,9 +552,15 @@ margin-top: -1rem;
   }
 
   .more-less {
-      cursor: pointer;
-      text-align: center;
-  }
+      cursor: pointer; 
+      color:rgba(0, 0, 0, 0.795);
+      font-size: 13px;
+      text-decoration: underline;
+      -moz-user-select: none;
+      -webkit-user-select: none;    
+      -ms-user-select: none;
+      user-select: none;
+    }
 
  /* Category page */
 
