@@ -68,4 +68,4 @@ const displayAuthors = (authors) => {
 }
 
 fetchCategories();
-    fetchAuthors();
+fetchAuthors();

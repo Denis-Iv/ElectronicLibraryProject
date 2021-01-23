@@ -530,9 +530,7 @@ margin-top: -1rem;
       margin-right: 1ch;
   }
 
-  .filters-list > li:nth-child(n+5) {
-      display: none;
-  }
+
 
   .more-filters {
       cursor: pointer;
