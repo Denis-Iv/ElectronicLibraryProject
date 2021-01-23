@@ -1,11 +1,11 @@
 :root {
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
     --bg-primary: rgb(252, 228, 200);
     --bg-secondary:rgb(252, 219, 182); 
-    --border-color: rgb(255, 175, 83); 
+    --border-color: rgb(255, 175, 83);
 }    
 
 body {
@@ -64,8 +64,7 @@ main {
     text-decoration: none !important;
     filter: grayscale(100%) opacity(0.6); 
     font-size: 14px !important; 
-    margin-right: 0.1rem;    
-    font-family: Arial, Helvetica, sans-serif !important; 
+    margin-right: 0.1rem;        
 }
 
 .logo .nav-link {
@@ -149,8 +148,7 @@ margin-top: -1rem;
     left: 50vw;
     transform: translate(-50%, -50%);
     color: var(--text-secondary);
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;    
     font-weight: 500;
 }
 
@@ -425,13 +423,12 @@ margin-top: -1rem;
 
 /* Books page layout */
 
-#search {
-    max-width: 60vw;
-    align-self: center;
-    margin-left: 15vw;
-    margin-right: 15vw;
+#search {     
+    width: 60vw;
+    margin-left: 20vw;
     margin-bottom: 3rem;
     margin-top: 2rem;
+    margin-right: 30vw;
 }
 
 #books-list {
@@ -462,7 +459,7 @@ margin-top: -1rem;
 .main-content {
     display: flex;
     flex: 1 1 75%;
-    margin-right: 20vw;
+    margin-right: 10vw;
     margin-left: 3rem;
     background-color: var(--bg-secondary);
     padding: 30px;
