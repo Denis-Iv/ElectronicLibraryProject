@@ -3,7 +3,7 @@ const booksList = document.getElementById('books-list');
 var currentCategory = document.getElementById('identifier').innerText;
 
 
-search.addEventListener('input', () => searchBooks(search.value));
+search.addEventListener('input', () => searchBooks(search.value, categFilter, authorFilter));
 
 const searchBooks = async (searchText, categFilter, authorFilter) => {
     const res = await fetch('../Frontend/data/sample.json');
