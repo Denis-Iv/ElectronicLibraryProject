@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Browse Catalogue</title>
+        <title>Чуждестранни книги на български език</title>
         <meta charset="utf-8" />
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -23,19 +23,13 @@
 
 </div>
 
-<script>
-$.get("components/navigation.html", function(data){
-    $("#nav-placeholder").replaceWith(data);
-});
-</script>
-
 <!--End of navigation bar-->
 
 <main>
     <div class="banner-image">  
         <img src="img/banner.png">   
         <div class="banner-text">
-            <h1>Каталог</h1>            
+            <h1>Чуждестранни книги на български език</h1>            
         </div> 
     </div>
     <hr>
@@ -79,38 +73,14 @@ $.get("components/navigation.html", function(data){
 
 </div>
 
-<script>
-$.get("components/footer.html", function(data){
-    $("#footer-placeholder").replaceWith(data);
-});
-</script>
-
 <!--End of Footer-->
 <p id="identifier" style="display: hidden">ww</p>
 
 <script src="js/scrollToTop.js"></script>
 <script src="js/searchResults.js"></script>
 <script src="js/fetchFilters.js"></script>
-
-<script>
-    $(function() {        
-       $('.filters-list').each(function() {
-           var $list = $(this);
-           $list.before('<span class="more-less">Покажи по-малко</span>');
-           $list.find('.filter:gt(4)').hide();        
-       });    
-     
-       $('.more-less').click(function() {
-           var $btn = $(this);
-           $btn.next().find('.filter:gt(4)').toggle();    
-           $btn.text($btn.text() == 'Покажи по-малко' ? 'Покажи повече' : 'Покажи по-малко');   
-       });
-   
-       setTimeout(function() {
-               $('.more-less').trigger('click');
-           },20);   
-   })
-   </script>
+<script src="js/showMoreButton.js"></script>
+<script src="js/loadComponents.js"></script>
    
 </body>
 </html>

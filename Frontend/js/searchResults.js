@@ -37,15 +37,14 @@ const displayBooks = (books) => {
 
         <div id="openModal" class="modalDialog">
             <div>
-                <a href="#close" title="Close" class="close">X</a>
+                <a href="#close" title="Затвори" class="close">X</a>
                 <h1>${book.description}</h1>
                 <h2>F. Scott Fitzgerald</h2>
                 <h4>Genre: Tragedy</h4>
 
                 <p>The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, the novel depicts narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan. The novel was inspired by a youthful romance Fitzgerald had with a socialite, and by parties he attended on Long Island's North Shore in 1922. Following a move to the French Riviera, he completed a rough draft in 1924. After submitting the draft to editor Maxwell Perkins, the editor persuaded Fitzgerald to revise the work over the following winter. Despite being happy with the content of the text after revision, Fitzgerald was ambivalent about the book's title and considered a variety of alternatives. The final title that he was documented to have desired was Under the Red, White, and Blue. Fitzgerald was, however, happy with painter Francis Cugat's final cover design.</p>
-                <button class="buttonFavourites">Add to Favourites</button>
                 <a href="books/English books/the-great-gatsby.pdf">
-                <button class="buttonRead">Read</button>
+                <button class="buttonRead">Прочети</button>
                 </a>
             </div>
         </div>            
