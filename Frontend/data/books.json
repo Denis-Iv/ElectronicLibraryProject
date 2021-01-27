@@ -430,5 +430,870 @@
         "description":"Ането и Тошко Африкански. Ането е послушно и работливо дете. Тя живее в малка къщурка със своя дядо и едно юначно пате. Маймунката Тошко е голям пакостник. Той напуска родната джунгла и попада в едно българско село. Въпреки че са много различни, Ането и Тошко преживяват низ от вълнуващи приключения.Малки читатели, запознайте се с едни от най-привлекателните герои на Ангел Каралийчев: Ането и Тошко Африкански. Ането е послушно и работливо дете. Тя живее в малка къщурка със своя дядо и едно юначно пате. Маймунката Тошко е голям пакостник. Той напуска родната джунгла и попада в едно българско село. Въпреки че са много различни, Ането и Тошко преживяват низ от вълнуващи приключения.",
         "cover":"img/Toshko_Afrikanski.jpg",
         "booklink":"books/Bulgarian books/Toshko_Afrikanski.pdf"
+      },
+      {
+        "title":"The Great Gatsby",
+        "author":"F. Scott Fitzgerald",
+        "genre":"Tragedy",
+        "category":"en",
+        "description":"The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, the novel depicts narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan. The novel was inspired by a youthful romance Fitzgerald had with a socialite, and by parties he attended on Long Island's North Shore in 1922. Following a move to the French Riviera, he completed a rough draft in 1924. After submitting the draft to editor Maxwell Perkins, the editor persuaded Fitzgerald to revise the work over the following winter. Despite being happy with the content of the text after revision, Fitzgerald was ambivalent about the book's title and considered a variety of alternatives. The final title that he was documented to have desired was Under the Red, White, and Blue. Fitzgerald was, however, happy with painter Francis Cugat's final cover design.",
+        "cover":"img/the-great-gatsby.jpg",
+        "booklink":"books/English books/the-great-gatsby.pdf"
+      },
+      {
+        "title":"The Little Prince",
+        "author":"Antoine de Saint-Exupery",
+        "genre":"Classics",
+        "category":"en",
+        "description":"The Little Prince is a classic tale of equal appeal to children and adults. On one level it is the story of an airman's discovery, in the desert, of a small boy from another planet - the Little Prince of the title - and his stories of intergalactic travel, while on the other hand it is a thought-provoking allegory of the human condition.Antoine de Saint-Exupéry first published The Little Prince in 1943, only a year before his Lockheed P-38 vanished over the Mediterranean during a reconnaissance mission. More than a half century later, this fable of love and loneliness has lost none of its power. The narrator is a downed pilot in the Sahara Desert, frantically trying to repair his wrecked plane. His efforts are interrupted one day by the apparition of a little, well, prince, who asks him to draw a sheep. The Little Prince describes his journey from planet to planet, each tiny world populated by a single adult. It's a wonderfully inventive sequence, which evokes not only the great fairy tales but also such monuments of postmodern whimsy as Italo Calvino's Invisible Cities. And despite his tone of gentle bemusement, Saint-Exupéry pulls off some fine satiric touches, too.",
+        "cover":"img/Littleprince.jpg",
+        "booklink":"books/English books/the_little_prince.pdf"
+      },
+      {
+        "title":"Anne Frank: The Diary of a Young Girl",
+        "author":"Anne Frank",
+        "genre":"Nonfiction",
+        "category":"A beloved classic since its initial publication in 1947, this vivid, insightful journal is a fitting memorial to the gifted Jewish teenager who died at Bergen-Belsen, Germany, in 1945. Born in 1929, Anne Frank received a blank diary on her 13th birthday, just weeks before she and her family went into hiding in Nazi-occupied Amsterdam. Her marvelously detailed, engagingly personal entries chronicle 25 trying months of claustrophobic, quarrelsome intimacy with her parents, sister, a second family, and a middle-aged dentist who has little tolerance for Anne's vivacity. The diary's universal appeal stems from its riveting blend of the grubby particulars of life during wartime (scant, bad food; shabby, outgrown clothes that can't be replaced; constant fear of discovery) and candid discussion of emotions familiar to every adolescent (everyone criticizes me, no one sees my real nature, when will I be loved?). Yet Frank was no ordinary teen: the later entries reveal a sense of compassion and a spiritual depth remarkable in a girl barely 15. Her death epitomizes the madness of the Holocaust, but for the millions who meet Anne through her diary, it is also a very individual loss.",
+        "description":"",
+        "cover":"img/the-diary-of-a-young-girl.jpg",
+        "booklink":"books/English books/the_diary_of_a_young_girl.pdf"
+      },
+      {
+        "title":"A Christmas Carol",
+        "author":"Charles Dickens",
+        "genre":"Fairy Tale",
+        "category":"en",
+        "description":"A Christmas Carol is a novella by English author Charles Dickens. It was first published by Chapman & Hall on 19 December 1843. Carol tells the story of a bitter old miser named Ebenezer Scrooge and his transformation resulting from a supernatural visit by the ghost of his former business partner Jacob Marley and the Ghosts of Christmases Past, Present and Yet to Come. The novella met with instant success and critical acclaim.The book was written and published in early Victorian era Britain, a period when there was strong nostalgia for old Christmas traditions together with the introduction of new customs, such as Christmas trees and greeting cards. Dickens' sources for the tale appear to be many and varied, but are, principally, the humiliating experiences of his childhood, his sympathy for the poor, and various Christmas stories and fairy tales.",
+        "cover":"img/a-christmas-carol.jpg",
+        "booklink":"books/English books/a_cristmas_carol.pdf"
+      },
+      {
+        "title":"Pride and Prejudice",
+        "author":"Jane Austen",
+        "genre":"Romantic novel",
+        "category":"en",
+        "description":"Pride and Prejudice is a novel of manners by Jane Austen, first published in 1813. The story follows the main character, Elizabeth Bennet, as she deals with issues of manners, upbringing, morality, education, and marriage in the society of the landed gentry of the British Regency. Elizabeth is the second of five daughters of a country gentleman living near the fictional town of Meryton in Hertfordshire, near London. Set in England in the early 19th century, Pride and Prejudice tells the story of Mr and Mrs Bennet's five unmarried daughters after the rich and eligible Mr Bingley and his status-conscious friend, Mr Darcy, have moved into their neighbourhood. While Bingley takes an immediate liking to the eldest Bennet daughter, Jane, Darcy has difficulty adapting to local society and repeatedly clashes with the second-eldest Bennet daughter, Elizabeth.Though Austen set the story at the turn of the 19th century, it retains a fascination for modern readers, continuing near the top of lists of most loved books.",
+        "cover":"img/pride_and_prejudice.jpg",
+        "booklink":"books/English books/pride_and_prejudice.pdf"
+      },
+      {
+        "title":"Anne of Green Gables",
+        "author":"L. M. Montgomery",
+        "genre":"Children's novel",
+        "category":"en",
+        "description":"Eleven-year-old Anne Shirley has never known a real home. Since her parents' deaths, she's bounced around to foster homes and orphanages. When she is sent by mistake to live with Matthew and Marilla Cuthbert at the snug white farmhouse called Green Gables, she wants to stay forever. But Anne is not the sturdy boy Matthew and Marilla were expecting. She's a mischievous, talkative redheaded girl with a fierce temper, who tumbles into one scrape after another. Anne is not like anybody else, the Cuthberts agree; she is special, a girl with an enormous imagination. All she's ever wanted is to belong somewhere. And the longer she stays at Green Gables, the harder it is for anyone to imagine life without her.",
+        "cover":"img/anne_of_green_gables.jpg",
+        "booklink":"books/English books/anne_of_green_gables.pdf"
+      },
+      {
+        "title":"Romeo and Juliet",
+        "author":"William Shakespeare",
+        "genre":"Tragedy",
+        "category":"en",
+        "description":"Romeo and Juliet is a tragedy written by William Shakespeare  about two young star-crossed lovers whose deaths ultimately reconcile their feuding families. It was among Shakespeare's most popular plays during his lifetime and along with Hamlet, is one of his most frequently performed plays. In Romeo and Juliet, Shakespeare creates a violent world, in which two young people fall in love. It is not simply that their families disapprove; the Montagues and the Capulets are engaged in a blood feud. In this death-filled setting, the movement from love at first sight to the lovers’ final union in death seems almost inevitable. And yet, this play set in an extraordinary world has become the quintessential story of young love. In part because of its exquisite language, it is easy to respond as if it were about all young lovers.",
+        "cover":"img/romeo_and_juliet.jpg",
+        "booklink":"books/English books/romeo_and_juliet.pdf"
+      },
+      {
+        "title":"The Canterville Ghost",
+        "author":"Oscar Wilde",
+        "genre":"Gothic Literature",
+        "category":"en",
+        "description":"An American family goes to England to live and to learn how the British live. Moving into a haunted house, despite being told it was haunted, Oscar Wilde begins to have fun not only with the Americans’ way of life but with the British as well, injecting humor at every moment and satire especially of the Americans. In the end, the ghost becomes significant. Through him, young Virginia learns about life and death and that love transcends it all. The short story continues to be popular. It became a movie in 1944 with Charles Laughton, and several other movies have been released as recently as 1997; it has also had many television renditions.",
+        "cover":"img/the_canterville_ghost.jpg",
+        "booklink":"books/English books/the_canterville_ghost.pdf"
+      },
+      {
+        "title":"The King in Yellow",
+        "author":"Robert W Chambers",
+        "genre":"Horror",
+        "category":"en",
+        "description":"This is the thing that troubles me, for I cannot forget Carcosa, where black stars hang in the heavens, where the shadows of men's thoughts lengthen in the afternoon when the twin suns sink into the Lake of Hali; and my mind will bear forever the memory of the Pallid Mask. Reader, have you ever wondered who struck fear into the heart of H. P. Lovecraft? It was Robert Chambers. Now, the terror visits you. A wicked link in a terrifying lineage, the tales contained in The King in Yellow have inspired generations of American horror writing. Look toward unspeakable Hastur and tell yourself these are only tales. Behold the Yellow Sign and convince yourself that after all - it's only a book. Welcome, dear reader, to Carcosa. Edited with notes and introduction by John Edgar Browning.",
+        "cover":"img/the-king-in-yellow.jpg",
+        "booklink":"books/English books/the_king_in_yellow.pdf"
+      },
+      {
+        "title":"A Princess of Mars",
+        "author":"Edgar Rice Burroughs",
+        "genre":"Science-Fantasy",
+        "category":"en",
+        "description":"A Princess of Mars is the first of eleven thrilling novels that comprise Edgar Rice Burroughs' most exciting saga, known as The Martian Series. It's the beginning of an incredible odyssey in which John Carter, a gentleman from Virginia and a Civil War veteran, unexpectedly finds himself on to the red planet, scene of continuing combat among rival tribes. Full of swordplay and daring feats, the novel is considered a classic example of 20th-century pulp fiction. It is also a seminal instance of the planetary romance, a subgenre of science fantasy that became highly popular in the decades following its publication. Its early chapters also contain elements of the Western. The story is set on Mars, imagined as a dying planet with a harsh desert environment. This vision of Mars was based on the work of the astronomer Percival Lowell, whose ideas were widely popularized in the late 19th and early 20th centuries.",
+        "cover":"img/a-princess-of-mars.jpg",
+        "booklink":"books/English books/a_princess_of_mars.pdf"
+      },
+      {
+        "title":"The Tree",
+        "author":"Katherine Fox",
+        "genre":"Horror",
+        "category":"en",
+        "description":"March 14, 2009 Aiken Somerset looked around, blinking away the rain from his eyes. There were red and blue lights flashing through the trees in the direction of the street, and he hoped that no one he knew needed the ambulance. He craned his neck to look at the familiar specimen of fagus grandifolia, smiling at the sight of buds forming along the outermost twigs. The rain may have been close to freezing, but his tree knew that spring was just around the corner. He looked down again, and his smile faded. It had been the first time he’d ever received anything from the hole in the enormous beech tree’s trunk. Before, he had only ever deposited gifts.",
+        "cover":"img/the-tree.jpg",
+        "booklink":"books/English books/the_tree.pdf"
+      },
+      {
+        "title":"Pollyanna",
+        "author":"Eleanor Hodgman Porter",
+        "genre":"Children's novel",
+        "category":"en",
+        "description":"The orphan girl Pollyanna moves in with her strict aunt in New England. Despite a difficult start, Pollyanna's exuberance and positivity affect everyone who meets her, and she spreads joy and love wherever she goes. But when tragedy strikes, Pollyanna finds her optimistic attitude tested, and she must learn to find happiness again. A heartwarming tale that has become one of the most loved children's stories of all time, Eleanor H. Porter's 1913 best-seller – the first in a long series of Pollyanna novels by the author and other writers – is a beautiful story with a powerful moral message.",
+        "cover":"img/pollyanna.jpg",
+        "booklink":"books/English books/pollyanna.pdf"
+      },
+      {
+        "title":"Crime and Punishment",
+        "author":"Fyodor Dostoyevsky",
+        "genre":"Philosophical novel",
+        "category":"en",
+        "description":"Russian writer Fyodor Dostoyevsky, first published in 1866. His first masterpiece, the novel is a psychological analysis of the poor former student Raskolnikov, whose theory that he is an extraordinary person able to take on the spiritual responsibility of using evil means to achieve humanitarian ends leads him to murder. The act produces nightmarish guilt in Raskolnikov. The story is one of the finest studies of the psychopathology of guilt written in any language.",
+        "cover":"img/crime-and-punishment.jpg",
+        "booklink":"books/English books/Crime_and_Punishment.pdf"
+      },
+      {
+        "title":"The Adventures of Sherlock Holmes",
+        "author":"Arthur Conan Doyle",
+        "genre":"Detective fiction",
+        "category":"en",
+        "description":"In general the stories in The Adventures of Sherlock Holmes identify, and try to correct, social injustices. Holmes is portrayed as offering a new, fairer sense of justice. The stories were well received, and boosted the subscriptions figures of The Strand Magazine, prompting Doyle to be able to demand more money for his next set of stories. The first story, A Scandal in Bohemia, includes the character of Irene Adler, who, despite being featured only within this one story by Doyle, is a prominent character in modern Sherlock Holmes adaptations, generally as a love interest for Holmes. Doyle included four of the twelve stories from this collection in his twelve favourite Sherlock Holmes stories, picking The Adventure of the Speckled Band as his overall favourite.",
+        "cover":"img/the-adventures...",
+        "booklink":"books/English books/the-adventures-of-sherlock-holmes.pdf"
+      },
+      {
+        "title":"The Adventures of Tom Sawyer",
+        "author":"Mark Twain",
+        "genre":"Children's literature",
+        "category":"en",
+        "description":"The Adventures of Tom Sawyer by Mark Twain is an 1876 novel about a young boy growing up along the Mississippi River. The story is set in the fictional town of St. Petersburg, inspired by Hannibal, Missouri, where Twain lived. Tom Sawyer lives with his Aunt Polly and his half-brother Sid. Tom dirties his clothes in a fight and is made to whitewash the fence the next day as punishment. He cleverly persuades his friends to trade him small treasures for the privilege of doing his work. Tom falls in love with Becky Thatcher, a new girl in town, and persuades her to get \"engaged\" by kissing him. But their romance collapses when she learns Tom has been \"engaged\" previously to Amy Lawrence. Shortly after Becky shuns him, he accompanies Huckleberry Finn to the graveyard at night, where they witness the murder of Dr. Robinson.",
+        "cover":"img/tom-sawyer.jpg",
+        "booklink":"books/English books/tom-sawyer.pdf"
+      },
+      {
+        "title":"Around the World in 80 Days",
+        "author":"Jules Verne",
+        "genre":"Adventure novel",
+        "category":"en",
+        "description":"Around the World in Eighty Days is a classic adventure novel by the French writer Jules Verne, published in 1873. In the story, Phileas Fogg of London and his newly employed French valet Passepartout attempt to circumnavigate the world in 80 days on a £20,000 wager (roughly £1.6 million today) set by his friends at the Reform Club. It is one of Verne's most acclaimed works.The story starts in London on Tuesday, October 1, 1872. Fogg is a rich English gentleman living in solitude.",
+        "cover":"img/80days.jpg",
+        "booklink":"books/English books/80days.pdf"
+      },
+      {
+        "title":"Heart of Darkness",
+        "author":"Joseph Conrad",
+        "genre":"Novella",
+        "category":"en",
+        "description":"Heart of Darkness (1899) is a novella by Polish-British novelist Joseph Conrad about a narrated voyage up the Congo River into the Congo Free State in the Heart of Africa. Charles Marlow, the narrator, tells his story to friends aboard a boat anchored on the River Thames. This setting provides the frame for Marlow's story of his obsession with the ivory trader Kurtz, which enables Conrad to create a parallel between what Conrad calls \"the greatest town on earth\", London, and Africa as places of darkness",
+        "cover":"img/heart-of-darkness.jpg",
+        "booklink":"books/English books/heart-of-darkness.pdf"
+      },
+      {
+        "title":"Captain Blood",
+        "author":"Rafael Sabatini",
+        "genre":"Adventure novel",
+        "category":"en",
+        "description":"Captain Blood: His Odyssey is an adventure novel by Rafael Sabatini, originally published in 1922. An adventure novel with an unexpected hero, Captain Blood follows the unintended journey of chivalrous and well-educated gentleman Peter Blood, who without much choice was plunged into the world of piracy forcing him to leave his tranquil lifestyle behind. Sabatini first introduced his protagonist in a series of eight short stories published in magazine installments, until later weaving them together in 1922 as a novel.Set in the late 17th century, the novel begins with the image of Peter Blood, a physician, casually attending his geraniums and smoking a pipe. However, things in the quiet town of Bridgewater are everything but ordinary.",
+        "cover":"img/captain-blood.jpg",
+        "booklink":"books/English books/captain-blood.pdf"
+      },
+      {
+        "title":"An Antarctic Mystery",
+        "author":"Jules Verne",
+        "genre":"Adventure novel",
+        "category":"en",
+        "description":"An Antarctic Mystery was written in 1897, in response to Edgar Allan Poe's 1838 novel The Narrative of Arthur Gordon Pym of Nantucket. It follows the adventures of the narrator and his journey from the Kerguelen Islands aboard the ship Halbrane to the South Pole. During their adventures, they find the source of strong magnetic fields, an Ice Sphinx. This edition contains both parts of the original novel.",
+        "cover":"img/an-antarctic-mystery.jpg",
+        "booklink":"books/English books/an-antarctic-mystery.pdf"
       }
+      {
+        "title":"Robinson Crusoe",
+        "author":"Daniel Defoe",
+        "genre":"Adventure novel",
+        "category":"en",
+        "description":"Epistolary, confessional, and didactic in form, the book is presented as an autobiography of the title character (whose birth name is Robinson Kreutznaer) – a castaway who spends 28 years on a remote tropical desert island near the coasts of Venezuela and Trinidad, encountering cannibals, captives, and mutineers, before ultimately being rescued. The story has been thought to be based on the life of Alexander Selkirk, a Scottish castaway who lived for four years on a Pacific island called \"Más a Tierra\", now part of Chile, which was renamed Robinson Crusoe Island in 1966. Despite its simple narrative style, Robinson Crusoe was well received in the literary world and is often credited as marking the beginning of realistic fiction as a literary genre. It is generally seen as a contender for the first English novel.",
+        "cover":"img/robinson-crusoe.jpg",
+        "booklink":"books/English books/robinson-crusoe.pdf"
+      },
+      {
+        "title":"The Woman in White",
+        "author":"Wilkie Collins",
+        "genre":"Mystery novel",
+        "category":"en",
+        "description":"The Woman in White is one of the earliest examples of detective fiction. Throughout his quest for the truth, Walter hires a number of private detectives and eventually mimics their methodology, with Collins' legal know-how lending realism to the plot line. Wilkie Collins was strongly motivated to author her novel by the unequal situation men and women found themselves: at the time, the law overtly deferred to men in matters of inheritance and estate. Published in 1859, we are immediately intrigued by the narrative - a young and genial tutor of arts, Walter Hartright, encounters a woman dressed head to toe in white who is lost in the streets of London. After reporting her to the authorities Walter is informed that the lady was an escapee from a mental asylum.",
+        "cover":"img/woman-in-white.jpg",
+        "booklink":"books/English books/woman-in-white.pdf"
+      },
+      {
+        "title":"Sense and Sensibility",
+        "author":"Jane Austen",
+        "genre":"Romance novel",
+        "category":"en",
+        "description":"Sense and Sensibility is centered around the romantic adventures of the Dashwood sisters after they are cast out from the family home after the death of their father. The sensible and reserved eldest sister, Elinor, is the “sense” half of the novel’s title, while the younger and more emotionally expressive Marianne is the “sensibility” half. The tensions and contrasts between these characters form the dramatic arch and moral focus on the story. It is because of these remarkably well-drawn and realistic characters that Sense and Sensibility, originally published in 1811, is still so widely read and beloved today and has been the subject of multiple successful TV and movie adaptations.",
+        "cover":"img/sense-and-sensibility.jpg",
+        "booklink":"books/English books/sense-and-sensibility.pdf"
+      },
+      {
+        "title":"An Introduction to Criminal Psychology",
+        "author":"Russil Durrant",
+        "genre":"Psychology",
+        "category":"en",
+        "description":"This book offers a clear, up-to-date, comprehensive, and theoretically informed introduction to criminal psychology, exploring how psychological explanations and approaches can be integrated with other perspectives drawn from evolutionary biology, neurobiology, sociology, and criminology. Drawing on examples from around the world, it considers different types of offences from violence and aggression to white-collar and transnational crime, and links approaches to explaining crime with efforts to prevent crime and to treat and rehabilitate offenders.This revised and expanded second edition offers a thorough update of the research literature and introduces several new features.",
+        "cover":"img/an-introduction-to-criminal-psychology.jpg",
+        "booklink":"books/English books/an-introduction-to-criminal-psychology.pdf"
+      },
+      {
+        "title":"The Freedom of Life",
+        "author":"Annie Payson Call",
+        "genre":"Health",
+        "category":"en",
+        "description":"The Freedom of Life is a classic self-help/self-improvment book by Annie Payson Call that provides a wide variety of tips for living a more healhy and productive life and inlcudes the following excerpt: INTERIOR freedom rests upon the principle of non-resistance to all the things which seem evil or painful to our natural love of self. But non-resistance alone can accomplish nothing good unless, behind it, there is a strong love for righteousness and truth. By refusing to resist the ill will of others, or the stress of circumstances, for the sake of greater usefulness and a clearer point of view, we deepen our conviction of righteousness as the fundamental law of fife, and broaden our horizon so as to appreciate varying and opposite points of view. The only non-resistance that brings this power is the kind which yields mere personal and selfish considerations for the sake of principles. Selfish and weak yielding must always do harm.",
+        "cover":"img/the-freedom-of-life.jpg",
+        "booklink":"books/English books/The-Freedom-of-Life.pdf"
+      },
+      {
+        "title":"How to Use Your Mind",
+        "author":"Harry D. Kitson",
+        "genre":"Psychology",
+        "category":"en",
+        "description":"Educational leaders are seeing with increasing clearness the necessity of teaching students not only the subject-matter of study but also methods of study. The recognition of this condition is taking the form of the movement toward ''supervised study,'' which attempts to acquaint the student with principles of economy and directness in using his mind. It is generally agreed that there are certain ''tricks'' which make for mental efficiency, consisting of methods of apperceiving facts, methods of review, devices for arranging work. Some are the fruits of psychological experimentation; others are derived from experience. Many of them can be imparted by instruction, and it is for the purpose of systematizing these and making them available for students that this book is prepared.",
+        "cover":"img/how-to-use-your-mind.jpg",
+        "booklink":"books/English books/How-to-Use-Your-Mind.pdf"
+      },
+      {
+        "title":"Underground",
+        "author":"Wilkie Collins",
+        "genre":"Novel",
+        "category":"en",
+        "description":"Suelette Dreyfus and embattled Wikileaks founder, Julian Assange, tell the compelling true story of the computer underground and the bizarre lives and crimes of an elite group of young hackers who, in the 1980s and 1990s, took on the forces of the establishment. Using home computers, they conquered some of the world’s biggest and most powerful organisations, including the US military. By day, sat in suburban school classrooms. By night they were knee-deep in NASA networks. Brilliant and obsessed, many of them found themselves addicted to hacking. Some descended into drug addiction and madness. Others were convicted and served time in gaol before slowly piecing their lives back together. From the inside, Dreyfus and Assange reveal this shadowy world of hidden identities and secret information. ",
+        "cover":"img/Underground.jpg",
+        "booklink":"books/English books/Underground.pdf"
+      },
+      {
+        "title":"Leaves of Grass",
+        "author":"Walt Whitman",
+        "genre":"Poetry",
+        "category":"en",
+        "description":"Leaves of Grass is a timeless collection of poems and essays penned by influential nineteenth-century writer Walt Whitman. This profound compilation explores topics such as nature, mysticism, mortality, transcendentalism, and democracy. Inspired by personal experiences and observations, Whitman spent almost four decades piecing together the complete work, sharing societal ideals and epiphanies about life that still resonate with readers today. This sturdy leather-bound edition of the complete Leaves of Grass also includes Whitman’s preface to the original 1855 edition, in which he expounds on his personal philosophy of writing poetry.",
+        "cover":"img/Leaves-of-Grass.jpg",
+        "booklink":"books/English books/Leaves-of-Grass.pdf"
+      },
+      {
+        "title":"Jacob's Room",
+        "author":"Virginia Woolf",
+        "genre":"Fiction",
+        "category":"en",
+        "description":"Jacob's Room is the third novel by Virginia Woolf. The novel centres, in a very ambiguous way, around the life story of the protagonist Jacob Flanders and is presented almost entirely through the impressions other characters have of Jacob. Thus, although it could be said that the book is primarily a character study and has little in the way of plot or background, the narrative is constructed with a void in place of the central character if, indeed, the novel can be said to have a 'protagonist' in conventional terms. Motifs of emptiness and absence haunt the novel and establish its elegiac feel. Jacob is described to us, but in such indirect terms that it would seem better to view him as an amalgam of the different perceptions of the characters and narrator. He does not exist as a concrete reality, but rather as a collection of memories and sensations. ",
+        "cover":"img/Jacob's-Room.jpg",
+        "booklink":"books/English books/Jacob's-Room.pdf"
+      },
+      {
+        "title":"50 Bab Ballads, vol 1",
+        "author":"W. S. Gilbert",
+        "genre":"Poetry",
+        "category":"en",
+        "description":"The Bab Ballads is a collection of light verses by W. S. Gilbert, illustrated with his own comic drawings. The book takes its title from Gilbert's childhood nickname. He later began to sign his illustrations \"Bab\". Gilbert wrote the \"ballads\" collected in the book before he became famous for his comic opera librettos with Arthur Sullivan. In writing these verses Gilbert developed his \"topsy-turvy\" style in which the humour is derived by setting up a ridiculous premise and working out its logical consequences, however absurd. The ballads also reveal Gilbert's cynical and satirical approach to humour. They became famous on their own, as well as being a source for plot elements, characters and songs that Gilbert recycled in the Gilbert and Sullivan operas. They were read aloud at private dinner-parties, at public banquets and even in the House of Lords. The ballads have been much published, and some have been recorded or otherwise adapted.",
+        "cover":"img/50-Bab-Ballads-vol-1.jpg",
+        "booklink":"books/English books/50-Bab-Ballads-vol-1.pdf"
+      },
+      {
+        "title":"The Flowers of Evil",
+        "author":"Charles Baudelaire",
+        "genre":"Poetry",
+        "category":"en",
+        "description":"The Flowers of Evil is a volume of French poetry by Charles Baudelaire. It was important in the symbolist and modernist movements. The subject matter of these poems deals with themes relating to decadence and eroticism. The author and the publisher were prosecuted under the regime of the Second Empire as an an insult to public decency. As a consequence of this prosecution, Baudelaire was fined 300 francs. Six poems from the work were suppressed and the ban on their publication was not lifted in France until 1949. Upon reading \"The Swan\" Victor Hugo announced that Baudelaire had created a new shudder, a new thrill in literature.",
+        "cover":"img/the-flowers-of-evil.jpg",
+        "booklink":"books/English books/the-flowers-of-evil.pdf"
+      },
+      {
+        "title":"Jerusalem Delivered",
+        "author":"Torquato Tasso",
+        "genre":"Romance",
+        "category":"en",
+        "description":"Jerusalem Delivered, also known as The Liberation of Jerusalem is an epic poem by the Italian poet Torquato Tasso, first published in 1581, that tells a largely mythified version of the First Crusade in which Christian knights, led by Godfrey of Bouillon, battle Muslims in order to take Jerusalem. Tasso began work on the poem in the mid-1560s. Originally, it bore the title Il Goffredo. It was completed in April, 1575 and that summer the poet read his work to Duke Alfonso of Ferrara and Lucrezia, Duchess of Urbino. Tasso's choice of subject matter, an actual historic conflict between Christians and Muslims (albeit with fantastical elements added), had a historical grounding and created compositional implications (the narrative subject matter had a fixed endpoint and could not be endlessly spun out in multiple volumes) that are lacking in other Renaissance epics. Like other works of the period that portray conflicts between Christians and Muslims, this subject matter had a topical resonance to readers of the period when the Ottoman Empire was advancing through Eastern Europe.",
+        "cover":"img/Jerusalem-Delivered.jpg",
+        "booklink":"books/English books/Jerusalem-Delivered.pdf"
+      },
+      {
+        "title":"The Pirate Island: A Story of the South Pacific",
+        "author":"Harry Collingwood",
+        "genre":"Adventure",
+        "category":"en",
+        "description":"A capital story of the sea; indeed in our opinion the author is superior in some respects as a marine novelist to the better known Mr. Clarke Russell.\"--The Times.This story details the adventures of a lad who was found in his infancy on board a wreck, and is adopted by, and brought up as, a fisherman. By a deed of true gallantry his whole destiny is changed, and, going to sea, he forms one of a party who, after being burned out of their ship in the South Pacific, and experiencing great hardship and suffering in their boats, are picked up by a pirate brig and taken to the \"Pirate Island.\" After many thrilling adventures, they ultimately succeed in effecting their escape. The story depicts both the Christian and the manly virtues in such colours as will cause them to be admired—and therefore imitated. There is not a single objectionable expression or suggestion throughout the book; and it abounds in adventures of just the kind that are most eagerly devoured by juvenile readers.",
+        "cover":"img/The-Pirate-Island.jpg",
+        "booklink":"books/English books/The-Pirate-Island.pdf"
+      },
+      {
+        "title":"After the Cure",
+        "author":"Deirdre Gould",
+        "genre":"Horror",
+        "category":"en",
+        "description":"Eight years ago the December Plague swept through the human population of earth. The Infected were driven mad by the disease, becoming violent and cannibalistic, killing even those closest to them without hesitation. Six years ago, the tiny surviving community of Immune humans found a cure, and the Infected began to wake up and realize what they'd done. Over time, society has begun to rebuild itself. It's now ready to judge those responsible for the Plague. Nella Rider, the court psychologist and Frank Courtlen a defense attorney are trying to establish the truth. But more depends on it than they know. Can they find the answers they need before the fragile remains of humanity vanish for good?",
+        "cover":"img/After-the-Cure.jpg",
+        "booklink":"books/English books/After-the-Cure.pdf"
+      },
+      {
+        "title":"White Fang",
+        "author":"Jack London",
+        "genre":"Adventure",
+        "category":"en",
+        "description":"White Fang is a novel by American author Jack London and the name of the book's eponymous character, a wild wolfdog. The story details White Fang's journey to domestication in Yukon Territory and the Northwest Territories during the 1890s Klondike Gold Rush. It is a companion novel (and a thematic mirror) to London's best-known work, The Call of the Wild (1903), which is about a kidnapped, domesticated dog embracing his wild ancestry to survive and thrive in the wild. Much of White Fang is written from the viewpoint of the titular canine character, enabling London to explore how animals view their world and how they view humans. White Fang examines the violent world of wild animals and the equally violent world of humans. The book also explores complex themes including morality and redemption.",
+        "cover":"img/White-Fang.jpg",
+        "booklink":"books/English books/White-Fang.pdf"
+      },
+      {
+        "title":"Ayesha, the Return of She",
+        "author":"H. Rider Haggard",
+        "genre":"Gothic novel",
+        "category":"en",
+        "description":"In this sequel to She, Horace Holly & his ward Leo Vincey once again embark on a quest to find the mysterious woman known as Ayesha. Knowing that She is no longer in Africa, they go east, eventually reaching a lamasery in the mountains of Tibet. The abbot warns them against continuing, but they press on & discover an ancient city named Kaloon, which is ruled by the evil Khan Rassen & his imperious wife, the Khania Atene. Near the city is a huge volcano, wherein lives the Hesea, the Priestess of Hes, & her servants. Leo becomes the center of a conflict between Atene & the Hesea, both of whom desire him.",
+        "cover":"img/Ayesha.jpg",
+        "booklink":"books/English books/Ayesha.pdf"
+      },
+      {
+        "title":"After London",
+        "author":"Richard Jefferies",
+        "genre":"Fantasy",
+        "category":"en",
+        "description":"After London, or Wild England, written in 1885, was far ahead of its time. An apocalyptic novel is commonplace in the 21st century, but at the close of the 19th century it was a new concept. Jeffries was fascinated with what nature could be if left alone. His love for the English rural areas is strong in this novel. The reader can feel his anger and dread at what change may mean to the land he loves. After some sudden and unspecified catastrophe has depopulated England, the countryside reverts to nature, and the few survivors to a quasi-medieval way of life. Beginning with a loving description of nature reclaiming England -- fields becoming overrun by forest, domesticated animals running wild, roads and towns becoming overgrown, the hated London reverting to lake and poisonous swampland -- the rest of the story is an adventure set many years later in the wild landscape.",
+        "cover":"img/After-London.jpg",
+        "booklink":"books/English books/After-London.pdf"
+      },
+      {
+        "title":"Germinal",
+        "author":"Émile Zola",
+        "genre":"Classics",
+        "category":"en",
+        "description":"The thirteenth novel in Émile Zola’s great Rougon-Macquart sequence, Germinal expresses outrage at the exploitation of the many by the few, but also shows humanity’s capacity for compassion and hope. Etienne Lantier, an unemployed railway worker, is a clever but uneducated young man with a dangerous temper. Forced to take a back-breaking job at Le Voreux mine when he cannot get other work, he discovers that his fellow miners are ill, hungry, and in debt, unable to feed and clothe their families. When conditions in the mining community deteriorate even further, Lantier finds himself leading a strike that could mean starvation or salvation for all.",
+        "cover":"img/Germinal.jpg",
+        "booklink":"books/English books/Germinal.pdf"
+      },
+      {
+        "title":"The Invisible Man",
+        "author":"H. G. Wells",
+        "genre":"Horror",
+        "category":"en",
+        "description":"The Invisible Man is a science fiction novel by H. G. Wells.  The Invisible Man to whom the title refers is Griffin, a scientist who has devoted himself to research into optics and who invents a way to change a body's refractive index to that of air so that it neither absorbs nor reflects light. He carries out this procedure on himself and renders himself invisible, but fails in his attempt to reverse it. A practitioner of random and irresponsible violence, Griffin has become an iconic character in horror fiction. While its predecessors, The Time Machine and The Island of Doctor Moreau, were written using first-person narrators, Wells adopts a third-person objective point of view in The Invisible Man. The novel is considered influential, and helped establish Wells as the \"father of science fiction\".",
+        "cover":"img/The-Invisible-Man.jpg",
+        "booklink":"books/English books/The-Invisible-Man.pdf"
+      },
+      {
+        "title":"The Island of Doctor Moreau",
+        "author":"H. G. Wells",
+        "genre":"Science fiction",
+        "category":"en",
+        "description":"The Island of Doctor Moreau is an 1896 science fiction novel by English author H. G. Wells. The text of the novel is the narration of Edward Prendick who is a shipwrecked man rescued by a passing boat. He is left on the island home of Doctor Moreau, a mad scientist who creates human-like hybrid beings from animals via vivisection. The novel deals with a number of philosophical themes, including pain and cruelty, moral responsibility, human identity, and human interference with nature. Wells described it as \"an exercise in youthful blasphemy.\" The Island of Doctor Moreau is a classic work of early science fiction and remains one of Wells' best-known books. The novel is the earliest depiction of the science fiction motif \"uplift\" in which a more advanced race intervenes in the evolution of an animal species to bring the latter to a higher level of intelligence.",
+        "cover":"img/The-Island-of-Doctor-Moreau.jpg",
+        "booklink":"books/English books/The-Island-of-Doctor-Moreau.pdf"
+      },
+      {
+        "title":"From the Earth to the Moon",
+        "author":"Jules Verne",
+        "genre":"Science fiction",
+        "category":"en",
+        "description":"It tells the story of the Baltimore Gun Club, a post-American Civil War society of weapons enthusiasts, and their attempts to build an enormous Columbiad space gun and launch three people—the Gun Club's president, his Philadelphian armor-making rival, and a French poet—in a projectile with the goal of a Moon landing. Five years later, Verne wrote a sequel called Around the Moon.The story is also notable in that Verne attempted to do some rough calculations as to the requirements for the cannon and in that, considering the comparative lack of empirical data on the subject at the time, some of his figures are remarkably accurate. However, his scenario turned out to be impractical for safe manned space travel since a much longer barrel would have been required to reach escape velocity while limiting acceleration to survivable limits for the passengers.",
+        "cover":"img/From-the-Earth-to-the-Moon.jpg",
+        "booklink":"books/English books/From-the-Earth-to-the-Moon.pdf"
+      },
+      {
+        "title":"Accelerando",
+        "author":"Charles Stross",
+        "genre":"Science fiction",
+        "category":"en",
+        "description":"The Singularity. It is the era of the posthuman. Artificial intelligences have surpassed the limits of human intellect. Biotechnological beings have rendered people all but extinct. Molecular nanotechnology runs rampant, replicating and reprogramming at will. Contact with extraterrestrial life grows more imminent with each new day.Struggling to survive and thrive in this accelerated world are three generations of the Macx clan: Manfred, an entrepreneur dealing in intelligence amplification technology whose mind is divided between his physical environment and the Internet; his daughter, Amber, on the run from her domineering mother, seeking her fortune in the outer system as an indentured astronaut; and Sirhan, Amber’s son, who finds his destiny linked to the fate of all of humanity.",
+        "cover":"img/Accelerando.jpg",
+        "booklink":"books/English books/Accelerando.pdf"
+      },
+      {
+        "title":"City at World's End",
+        "author":"Edmond Hamilton",
+        "genre":"Science fiction",
+        "category":"en",
+        "description":"City at World's End is a BBC Books original novel written by Christopher Bulis and based on the long-running British science fiction television series Doctor Who. It features the First Doctor, Barbara, Ian, and Susan. The Doctor and his three companions travel to Arkhaven. It is one of the last cities on a doomed alien planet. The city has one plan for survival, no backup. However, there are underlying plans threatening to sabotage this as various people vie for power the disaster might bring. The Doctor then must deal with the 'Creeper', an entity prowling the outskirts of Arkhaven. His companions cannot help him, as one becomes lost and the other becomes mentally ill.",
+        "cover":"img/City-at-World's-End.jpg",
+        "booklink":"books/English books/City-at-World's-End.pdf"
+      },
+      {
+        "title":"At the Earth's Core",
+        "author":"Edgar Rice Burroughs",
+        "genre":"Fantasy",
+        "category":"en",
+        "description":"At the Earth's Core is a 1914 fantasy novel by American writer Edgar Rice Burroughs, the first in his series about the fictional \"hollow earth\" land of Pellucidar. The author relates how, traveling in the Sahara desert, he has encountered a remarkable vehicle and its pilot, David Innes, a man with a remarkable story to tell. David Innes is a mining heir who finances the experimental \"iron mole,\" an excavating vehicle designed by his elderly inventor friend Abner Perry. In a test run, they discover the vehicle cannot be turned, and it burrows 500 miles into the Earth's crust, emerging into the unknown interior world of Pellucidar. In Burroughs' concept, the Earth is a hollow shell with Pellucidar as the internal surface of that shell.",
+        "cover":"img/At-the-Earth's-Core.jpg",
+        "booklink":"books/English books/At-the-Earth's-Core.pdf"
+      },
+      {
+        "title":"The Ghost Pirates",
+        "author":"William Hope Hodgson",
+        "genre":"Horror",
+        "category":"en",
+        "description":"The Ghost Pirates is a horror novel by English writer William Hope Hodgson, first published in 1909. In it, Hodgson never describes in any remarkable details the ghosts – if this is indeed what they are, since their true nature is left ambiguous – he merely reports on their gradual commandeering of the ship. The novel is presented as the transcribed testimony of Jessop, who we ultimately discover is the only survivor of the final voyage of the Mortzestus, having been rescued from drowning by the crew of the passing Sangier. It begins with Jessop's recounting how he came to be aboard the ill-fated Mortzestus and the rumors surrounding the vessel. Jessop then begins to recount the unusual events that rapidly increase in both frequency and severity.",
+        "cover":"img/The-Ghost-Pirates.jpg",
+        "booklink":"books/English books/The-Ghost-Pirates.pdf"
+      },
+      {
+        "title":"Lord of the World",
+        "author":"Robert Hugh Benson",
+        "genre":"Science fiction",
+        "category":"en",
+        "description":"Lord of the World is a 1907 novel by Monsignor Robert Hugh Benson that centers upon the reign of the Anti-Christ and the End of the World. It has been called prophetic by Dale Ahlquist, Joseph Pearce, Pope Benedict XVI and Pope Francis. Robert Hugh Benson was the youngest son of Edward White Benson, Archbishop of Canterbury, and younger brother of Edward Frederic Benson. In 1895, he was ordained a priest in the Church of England by his father who was then Archbishop of Canterbury. After many years of questioning and soul-searching he was received into the Roman Catholic Church in 1903. He was ordained a Catholic priest in 1904 and named a Monsignor in 1911. This book, written in 1907, is Benson's dystopic vision of a near future world in which religion has, by and large, been rejected or simply fallen by the wayside. The Catholic Church has retreated to Italy and Ireland, while the majority of the rest of the world is either Humanistic or Pantheistic.",
+        "cover":"img/Lord-of-the-World.jpg",
+        "booklink":"books/English books/Lord-of-the-World.pdf"
+      },
+      {
+        "title":"Ministry of Disturbance",
+        "author":"H. Beam Piper",
+        "genre":"Science fiction",
+        "category":"en",
+        "description":"Ministry of Disturbance is a science fiction novella written by H. Beam Piper frist published in 1958. Sometimes getting a job is harder than the job after you get it--and sometimes getting out of a job is harder than either! The galactic empire (of a few thousand planets) has been stable for 600 years. Emperor succeeds emperor, and planetary production is regulated to keep markets and economies stable. Then why is there a plot to overthrow the emperor? And who is behind it?",
+        "cover":"img/Ministry-of-Disturbance.jpg",
+        "booklink":"books/English books/Ministry-of-Disturbance.pdf"
+      },
+      {
+        "title":"Cleopatra: Being an Account of the Fall and Vengeance of Harmachis",
+        "author":"H. Rider Haggard",
+        "genre":"Historical",
+        "category":"en",
+        "description":"Cleopatra - Being an Account of the Fall and Vengeance of Harmachis by H. Rider Haggard Cleopatra: Being an Account of the Fall and Vengeance of Harmachis is a novel written by the author H. Rider Haggard, the author of King Solomon's Mines and She. The book was first printed in 1889. The story is set in the Ptolemaic era of Ancient Egyptian history. As is the case with the majority of Haggard's works, the story draws heavily upon adventure and exotic concepts.The story, told from the point of view of the Egyptian priest Harmachis, is recounted in biblical language, being in the form of papyrus scrolls found in a tomb. Haggard's portrait of Cleopatra is quite stunning, revealing her wit, her treachery, and her overwhelming presence. All of the characters are mixtures of good and evil, and evoke both sympathy and loathing.",
+        "cover":"img/Cleopatra.jpg",
+        "booklink":"books/English books/Cleopatra.pdf"
+      },
+      {
+        "title":"Dear Enemy",
+        "author":"Jean Webster",
+        "genre":"Children's literature",
+        "category":"en",
+        "description":"The story is presented in a series of letters written by Sallie McBride, Judy Abbott's classmate and best friend in Daddy-Long-Legs. Among the recipients of the letters are Judy; Jervis Pendleton, Judy's husband and the president of the orphanage where Sallie is filling in until a new superintendent can be installed; Gordon Hallock, a wealthy Congressman and Sallie's later fiancé; and the orphanage's doctor, embittered Scotsman Robin 'Sandy' MacRae (to whom Sallie addresses her letters: \"Dear Enemy\"). Webster employs the epistolary structure to good effect; Sallie's choices of what to recount to each of her correspondents reveal a lot about her relationships with them.",
+        "cover":"img/Dear-Enemy.jpg",
+        "booklink":"books/English books/Dear-Enemy.pdf"
+      },
+      {
+        "title":"Мъртви души",
+        "author":"Николай Гогол",
+        "genre":"Класически роман",
+        "category":"ww",
+        "description":"„Мъртви души“ е сатиричен роман на руския писател Николай Гогол, самият автор определя произведението като жанр - поема. Сюжетът на „Мъртви души“ проследява пътя на позастаряващия и понапълняващия Чичиков, чиято единствена цел е да натрупа огромна сума пари. За тази цел той се опитва да приложи невероятен план – обикаляйки руските помешчици, той ги убеждава (чрез невероятния си талант на приспособяване) да му продават фиктивни крепостни, които все още не са зачислени към списъците като мъртви. Но срещайки го с различните земевладелци и обяснявайки подбудите на Чичиков, Гогол кара читателя да разбере, че не селяните са мъртвите души. Шестте образа-типове представят пълната бездуховност в Русия на 19 век.",
+        "cover":"img/Myrtvi_dushi.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Myrtvi_dushi.pdf"
+      },
+      {
+        "title":"Беладона",
+        "author":"Карън Молине",
+        "genre":"Съвременна проза",
+        "category":"ww",
+        "description":"\"Беладона\" ни разкрива древен обред на един лондонски клуб оцелял от средните векове до днес. Негови членове са тринайсет свръхбогати английски благородници, които се събират на всеки три години, за да наддават за отвлечена красива девойка без родители. Този, който спечели търга, я взима за своя пленница и се държи с нея като с робиня. И то за срока, за който е заплатил, а омръзне ли му, я предоставя на другите. Младата американка Изабела, пристигнала в Лондон при своята братовчедка, се превръща в тяхна поредна жертва за цели 19 години. Тя успява да се изтръгне по-рано от лапите на своите мъчители и на фона на световната история авторката проследява личния и срив, настъпилия обрат в живота и, търсенето на нов смисъл в отмъщението. Вече преобразена в Беладона и собственица на нощен клуб в Ню Йорк, тя привлича в него мъчителите си един подир друг, за да намери успокоение след като им отмъсти.",
+        "cover":"img/beladona.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Beladona.pdf"
+      },
+      {
+        "title":"Близначките",
+        "author":"Саския Сарджинсън",
+        "genre":"Съвременна проза",
+        "category":"ww",
+        "description":"Изолта и Виола са близначки. Неразделни като деца, те порастват и стават съвсем различни жени: Изолта пише за известно модно списание, има приятел фотограф и бляскав апартамент в Лондон, а Виола е отчаяна и нещастна и със сетни сили се бори със сериозно хранително разстройство. Какво се е случило преди години, за да преобърне живота на близначките и да ги тласне по така различни пътища в живота им на възрастни? Докато двете жени разплитат трагичните събития от едно лято, което никога няма да забравят, ужасяващи тайни от миналото се завръщат с драматична сила и заплашват да разбият съдбите им ... Пленителен разказ за повратните точки в човешкия живот, това е роман за необичайната връзка между близнаците, за тайните, които всички носим със себе си, и за тяхното понякога разрушително въздействие върху бъдещето ни.",
+        "cover":"img/bliznachkite.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Bliznachkite.pdf"
+      },
+      {
+        "title":"Блус в лятна нощ",
+        "author":"Пат Конрой",
+        "genre":"Съвременен роман",
+        "category":"ww",
+        "description":"През 1995 г. излиза романът „Блус в лятна нощ“, в който се разказва за американеца Джак Маккол, живеещ в Рим, който се връща в Южна Каролина, след новината за терминално заболяване на майка му. Историята показва опитът му да се изправи срещу последствията от самоубийството на съпругата му и битката за попечителство над дъщеря им, и да постигне възраждането на старите приятелства, компрометирани по време на Виетнамската война. Лирична сага за три полколения американци, белязани от трагичното си европейско минало. Вълнуващ роман за живота и смъртта, за трудния път към истината, за бремето на спомените, за крехкия свят на мечтите и любовта.",
+        "cover":"img/blus-v-lyatna-nosht.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Blus-v-lyatna-nosht.pdf"
+      },
+      {
+        "title":"Бялата къща",
+        "author":"Джон Гришам",
+        "genre":"Съвременен роман",
+        "category":"ww",
+        "description":"Романът тече през погледа на седемгодишното момче Люк Чандлър, което живее заедно с родителите си в малка, небоядисана къща. С настъпването на новия сезон на памука семейство Чандлър наема едно семейство и няколко мексиканци да им помагат в събирането. В рамките на тези няколко месеца, писателят описва подробно всеки ден от този начин на живот и всевъзможните проблеми, породени от условията му. Историята е вдъхновена от детството на автора в Арканзас по време на войната с Корея.",
+        "cover":"img/byalata-kyshta.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Byalata-kyshta.pdf"
+      },
+      {
+        "title":"Внимавай какво си пожелаваш",
+        "author":"Джефри Арчър",
+        "genre":"Съвременен роман",
+        "category":"ww",
+        "description":"Обич, успех и дръзновение – всеки мечтае за това. Но внимавай какво си пожелаваш, защото може да получиш подлост, коварство, провал и унищожение! 1957 г. Хари и Ема научават, че синът им Себастиан е претърпял автомобилна катастрофа, но не знаят кой е загинал в нея - Себастиан или най-добрият му приятел Бруно. Следват множество обрати в съдбите на Ема, Хари и осиновената им дъщеря Джесика. Джесика се влюбва в състудента си Клайв Бингам. И двете семейства се радват на тяхната връзка, но една злонамерена личност се опитва да разруши щастието им. Това предизвиква неочакван смут и променя живота на всички в семействата Клифтън и Барингтън.",
+        "cover":"img/vnimavai-kakvo-si-pojelavash.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Vnimavai-kakvo-si-pojelavash.pdf"
+      },
+      {
+        "title":"Врява и безумство",
+        "author":"Уилям Фокнър",
+        "genre":"Модерна класика",
+        "category":"ww",
+        "description":"Врява и безумство е роман, написан от американския автор Уилям Фокнър. В него откриваме няколко различни стила на разказване, включително техниката известна като поток на съзнанието, сред чиито пионери са европейските новелисти от 20 век Джеймс Джойс и Вирджиния Улф. Публикуван през 1929, Врява и безумство е четвъртият роман на Фолкнър. Той не става веднага комерсиален успех. През 1931, обаче, когато е публикуван шестият роман на Фокнър, Светилището, сензационната история, която Фолкнър по-късно твърди, че е написана само за пари – Врява и безумство също постига търговски успех и Фокнър започва да става обект на внимание от литературните критици. ",
+        "cover":"img/vryava-i-bezumstvo.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Vryava-i-bezumstvo.pdf"
+      },
+      {
+        "title":"Възмущение",
+        "author":"Филип Рот",
+        "genre":"Исторически роман",
+        "category":"ww",
+        "description":"Този великолепен и смущаващ роман на Филип Рот задълбава в неизследвани кътчета на една щедро експлоатирана, но едностранчиво интерпретирана епоха - 50-те години на ХХ в. в САЩ, време на война и неспокойствие в нравите. Рот глозга скелета на човешката психика, по който са полепнали болезнени спомени за преживени драми и очакване на неизбежна смърт. Или поне така възприема живота 19-годишният разказвач в романа - Маркъс Меснър, син на месар от Нюарк. Бащата е прекалено грижовен и вместо да даде на сина си подкрепата и увереността, от които младежът се нуждае, го прогонва в колеж извън родния Нюарк. Маркъс е несъзнателно повлиян от страховете на баща си - перспективата да се озове на фронта в Корея оставя дълбока диря в мотивацията му за живот. Колежът не му осигурява убежището, което търси - тук чувствителният и дисциплиниран младеж се оказва изправен пред статуквото и ограниченията на един друг, непознат нему свят. Дори любовта не е такава, каквато я чертае въображението му. \"Възмущение\" е разказ за неопитността, глупостта, интелектуалната съпротива, посвещаването в интимността, смелостта и грешката.",
+        "cover":"img/vyzmushtenie.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Vyzmushtenie.pdf"
+      },
+      {
+        "title":"Голгота",
+        "author":"Чингиз Айтматов",
+        "genre":"Класически роман",
+        "category":"ww",
+        "description":"\"Голгота\" е многопластово произведение, в което се преплитат няколко основни сюжетни линии, свързани помежду си с обща проблематика от философски, морален и естетически характер. Романът на Чингиз Айтматов представя хаоса и дисхармонията в човешките отношения, тъмната и светлата страна на живота, но е и израз на тревогата на автора за отнетата вяра в нравствената чистота и идеалите. Първата - представя живота на двойка вълци, които са принудени да се изселят от степите и чиито рожби са избити от хората. Втората сюжетна линия е историята на Авдий - млад човек, който напуска духовната семинария и започва да се занимава с журналистика, но продължава да търси своята мисия в света и смисъла на съществуването. След като прониква в бандата на наркотрафиканти и бракониери той е убит жестоко. Историята на Авдий препраща към библейския сюжет, защото според автора всеки носи своята Голгота и трябва да я преживее. Третата нишка в романа е разказът за съдебния процес срещу Христос, ръководен от Пилат Понтийски, където често житието на Сина Божий се преплита със съдбата на героите от романа. Айтматов нанизва историите като в стара притча, разказва увлекателно, емоционално, поетично и използва много образен език.",
+        "cover":"img/golgota.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Golgota.pdf"
+      },
+      {
+        "title":"Петербургски повести",
+        "author":"Николай Гогол",
+        "genre":"Класически роман",
+        "category":"ww",
+        "description":"Петербургски повести на Гогол - След двата сборника Гогол започва да пише трети цикъл повести, които са обединени в сборника „Петербургски повести“. Сред тях са: „Невски Проспект“, „Портрет“, „Нос“, „Шинел“, „Записките на един луд“. Повестите са обединени от един образ, който минава през всяка от тях – столицата Петербург. Това е град на социалните контрасти. Повестта „Невски проспект“ носи името на централната улица в столицата. Това е мястото където хората показват своето богатство. Стандартите, по които се оценяват хората са злато, богатство, дрехи, всичко материално. Това са фалшиви стандарти и животът на хората като тях е измамен, лъжовен, продажен.",
+        "cover":"img/pererburgski_povesti.jpg",
+        "booklink":"books/Foreign books-Bulgarian/pererburgski_povesti.pdf"
+      },
+      {
+        "title":"Ана Каренина",
+        "author":"Лев Толстой",
+        "genre":"Класически роман",
+        "category":"ww",
+        "description":"„Ана Каренина“ е роман на руския писател Лев Толстой. „Ана Каренина“ разказва любовната история на петербургската аристократка Ана Каренина на фона на феодалното руско общество от края на ХІХ в. Основните теми в романа са предателството, вярата, семейството, брака, имперското руско общество, страстта, селският срещу градския живот. Сюжетът се фокусира върху извънбрачната афера между Ана и дръзкия офицер от кавалерията граф Алексей Кириович Вронски, която скандализира социалните кръгове на Санкт Петербург. Влаковете са повтарящ се мотив в целия роман, който се осъществява на фона на бързите трансформации в резултат на либералните реформи, инициирани от император Александър II, като няколко основни сюжетни точки се провеждат или в пътнически влакове, или на гари в Санкт Петербург или другаде в Русия.",
+        "cover":"img/ana_karenina.jpg",
+        "booklink":"books/Foreign books-Bulgarian/ana_karenina.pdf"
+      },
+      {
+        "title":"Престъпление и наказание",
+        "author":"Фьодор Михайлович Достоевски",
+        "genre":"Класически роман",
+        "category":"ww",
+        "description":"„Престъпление и наказание“ е философски роман, написан от руския писател Фьодор Михайлович Достоевски. Замисълът за „Престъпление и наказание“ съзрява у Достоевски в течение на много време, но централната тема, свързана с идеята за основния персонаж за „обикновените“ и „необикновените“ хора, започва да се формира едва през 1863 г. в Италия. След като започва да работи върху произведението, авторът съчетава черновата на незавършения роман „Пияници“, в който е очертана сюжетната линия, разказваща за семейство Мармаладови, и записки на роман-изповед, заплануван като откровение на един каторжник. В процеса на работа за основна сюжетна линия се избира престъплението на студента Родион Разколников, който убива стара лихварка, за да спаси близките си.",
+        "cover":"img/prestyplenie_i_nakazanie.jpg",
+        "booklink":"books/Foreign books-Bulgarian/prestyplenie_i_nakazanie.pdf"
+      },
+      {
+        "title":"Брулени хълмове",
+        "author":"Емили Бронте",
+        "genre":"Класически роман",
+        "category":"ww",
+        "description":"„Брулени хълмове” е страстна история за необузданата и демонична любов между Катрин Ърншоу и Хийтклиф, подхвърлено дете, отгледано от нейния баща. След смъртта на господин Ърншоу, Хийтклиф е тормозен и унижаван от брата на Катрин – Хиндли. Убеден, че любовта му към Катрин е несподелена, Хийтклиф напуска дома им. Години по-късно той се завръща като богат и изискан човек, прецизно подготвил своето жестоко отмъщение. Първични и неконтролируеми, чувствата между Катрин и Хийтклиф помитат всичко по пътя си. Тяхната бурна, разрушителна страст ги води към собственото им унищожение. Името на романа идва от едно Йоркшърско имение на хълмовете, около което се развива историята. „Брулени хълмове“ е един трагичен разказ за любов и омраза, за изпепеляващи страсти, които погубват човека и го превръщат в жив призрак. В романа намираме силни чувства и личности, които са сякаш част от природните стихии, пренебрежение към приетите дребнобуржоазни норми, протест срещу един свят, в който парите и собствеността са определящи, съчетание на романтизъм с реализъм.",
+        "cover":"img/Bruleni_hulmove.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Bruleni_hulmove.pdf"
+      },
+      {
+        "title":"Сто години самота",
+        "author":"Габриел Гарсия Маркес",
+        "genre":"Модерна класика",
+        "category":"ww",
+        "description":"„Сто години самота“ не е обикновен роман. Това е роман паметник на рода Буендия, който обхваща 100, 200 или повече години (вие решете колко) от създаването както на него, така и на легендарното селище Макондо, което обитава, до неговия край. Не е възможно да се опише това произведение в няколко реда. Книгата е пълна със събития, житейски и обществени случки, страсти и подробности. Героите в нея са много и поведението им е най-разнообразно. Има и много хумор, както и много прочути изречения, които ще останат завинаги в световната литература, заедно с целия роман. В него е и Хосе Аркадио Буендия, който се опитва да направи с дагеротип снимка на Господ, и Ремедиос красивата, която чак мирише на любов, но от личността й Природата е изрязала напълно любовта и секса, и всепомитащата страст между Амаранта Урсула и Аурелиано, и още много неща. Въобще това е книга за нещо много голямо от неговото начало до края му.",
+        "cover":"img/sto_godini_samota.jpg",
+        "booklink":"books/Foreign books-Bulgarian/sto_godini_samota.pdf"
+      },
+      {
+        "title":"Спасителят в ръжта",
+        "author":"Джеръм Дейвид Селинджър",
+        "genre":"Класически роман",
+        "category":"ww",
+        "description":"Спасителят в ръжта е роман от американския писател Джеръм Дейвид Селинджър. Дори в 21 век тя все още предизвиква противоречия заради езика, който ползва, либералните разбирания, сексуалната освободеност и нежеланието на 16-17 годишните да се съобразяват и живеят с общоприетите норми на обществото. Главният герой на книгата, Холдън Колфийлд, се превръща в икона на тийнейджърското бунтарство. Написан в първо лице, романът описва няколко дни от живота на героя, прекарани в Ню Йорк, след напускането му на училище малко преди Коледа. Книгата е изпълнена с философски разсъждения за живота и смъртта и на места може да се възприеме като песимистична. ",
+        "cover":"img/Spasitelyat_v_Ryzhta.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Spasitelyat_v_Ryzhta.pdf"
+      },
+      {
+        "title":"Големите надежди",
+        "author":"Чарлс Дикенс",
+        "genre":"Класически роман",
+        "category":"ww",
+        "description":"Основният мотив на книгата са приключенията и съзряването на един сирак, наречен Пип. Действието, изпълнено с насилие, бедност и тежкият живот на каторжниците се развива в Кент и Лондон и започва през 1812 г. като продължава до 1846 г., а сред редицата колоритни персонажи се открояват – ексцентричната мис Хавишъм, красивата, но студена Естела и Джо, простодушния, но мил ковач. Темите, които вълнуват Дикенс са богатство и бедност, любов и отрицание и възможния триумф на доброто над злото. Книгата е екранизирана нееднократно, а също така има множество театрални постановки по нея. Това дава основания да се смята за една от най-популярните му творби. Романът се отнася към зрелия период на творчество на писателя. В главния герой са вложени много автобиографични черти.",
+        "cover":"img/Golemite_nadezhdi.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Golemite_nadezhdi.pdf"
+      },
+      {
+        "title":"Портретът на Дориан Грей",
+        "author":"Оскар Уайлд",
+        "genre":"Класически роман",
+        "category":"ww",
+        "description":"Дориан Грей е младеж, надарен с изключителна физическа красота, от която всички се възхищават. След като неговият приятел, художникът Базил Холуърд, му нарисува портрет, Дориан се възгордява от красотата си. Той си пожелава да остане завинаги млад, а портретът да старее вместо него. Желанието му се сбъдва и лицето на омагьосания портрет не само старее, но и разкрива всички пороци и грехове, на които героят става жертва. В лицето на лорд Хенри Оскар Уайлд представя умела карикатура на английската аристокрация от края на 19-ти век и осмива порядките и предразсъдъците на викторианското обществото. Неподражаемият диалог, изпълнен с хумор и остроумие, е запазена марка на Уайлд както и основно достойнство на книгата.",
+        "cover":"img/Portretyt_na_Dorian_Grei.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Portretyt_na_Dorian_Grei.pdf"
+      },
+      {
+        "title":"Да убиеш присмехулник",
+        "author":"Харпър Ли",
+        "genre":"Класически роман",
+        "category":"ww",
+        "description":"\"Да убиеш присмехулник\" остава в световната белетристика като изключителен литературен феномен. Весел, забавен и написан с естествена прецизност, този южняшки роман и днес не е изгубил своя блясък. Брилянтното писателско перо на Ли прорязва времето и все още учи читателя на удивителен брой полезни истини за живота. Творба с ранга на изключително постижение в литературата, която несъмнено ще ви накара да се насладите на естествената простота, с която е написана... Един роман със силно съвременно звучене. Романът отвежда в измисления град Мейкомб, щата Алабама. През погледа на шестгодишната Скаут читателите се запознават с брат ѝ Джим, баща им Атикус Финч, чернокожата иконмка Калпурния, приятелят им Дил и другите жители на малкия град.",
+        "cover":"img/da_ubiesh_prismehulnik.jpg",
+        "booklink":"books/Foreign books-Bulgarian/da_ubiesh_prismehulnik.pdf"
+      },
+      {
+        "title":"Червено и черно",
+        "author":"Стендал",
+        "genre":"Класически роман",
+        "category":"ww",
+        "description":"\"Червено и Черно\" е вторият роман, написан от Стендал. Книгата е за живота и страстите на един интелигентен и амбициозен млад мъж, Жюлиен Сорел, който се опитва да се издигне над средата си и да успее с комбинация от усилена работа, талант и интриги. Книгата е съставена от две части, в първата той е в провинцията при семейство Ренал, а във втората вече в Париж в стремежа си да се издигне в обществото.",
+        "cover":"img/Cherveno_i_cherno.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Cherveno_i_cherno.pdf"
+      },
+      {
+        "title":"Любов по време на холера",
+        "author":"Габриел Гарсия Маркес",
+        "genre":"Любовен роман",
+        "category":"ww",
+        "description":"Основната тема в този роман е любовта. В него се разказва за един мъж, който никога не губи надежда и в продължение на повече от 50 години очаква да се събере с първата си любов, преминавайки през най-различни премеждия и препятствия. Животът е по-безкраен от смъртта - това е прозрението, което получава капитанът на кораба, докато гледа на неговата палуба Флорентино Ариса и Фермина Даса заедно, събрани петдесет и три години, седем месеца и единайсет дни заедно с нощите им след началото на тяхната любов.",
+        "cover":"img/Ljubov_po_vreme_na_holera.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Ljubov_po_vreme_na_holera.pdf"
+      },
+      {
+        "title":"Вината в нашите звезди",
+        "author":"Джон Грийн",
+        "genre":"Съвременен роман",
+        "category":"ww",
+        "description":"Нямаш право на избор дали да бъдеш наранен - сам можеш да избереш единствено кой да те нарани! <br>Шестнайсетгодишната Хейзъл знае, че не й остават повече от няколко години живот. Затова тя гледа на себе си преди всичко като на „професионално боледуваща“. Но един ден в групата за взаимопомощ, която посещава, се появява Огъстъс Уотърс. И ето как историята на Хейзъл е на път да бъде пренаписана. Мъдър, дързък и суров, „Вината в нашите звезди“ на Джон Грийн е труден за преглъщане роман за смешното и трагичното в това да си влюбен и... на крачка от смъртта.",
+        "cover":"img/vinata_v_nashite_zvezdi.jpg",
+        "booklink":"books/Foreign books-Bulgarian/vinata_v_nashite_zvezdi.pdf"
+      },
+      {
+        "title":"Крадецът на книги",
+        "author":"Маркъс Зюсак",
+        "genre":"Исторически роман",
+        "category":"ww",
+        "description":"Историята я разказва Смъртта. Тя започва със смъртта на малкия брат на Лизел, която след това пристига в къщата на новите си приемни родители, Ханс и Роза Хуберман. По време на живота си там, тя става свидетел на настъплението и ужасите на нацисткия режим, хваната между невинността на детството и зрелостта. Тъй като политическата ситуация в Германия се влошава, приемните ѝ родители приемат и укриват еврейски боксьор на име Макс. Ханс, който изгражда близка връзка с Лизел, тайно я учи да чете. Научавайки силата на писането и споделянето на писмено слово, Лизел продължава да краде книги, след като първата си книга открадва при погребението на брат си, без да може да чете. Открадва и книга от показното аутодафе, организирано в градчето от Хитлерюгенд. Продължава да краде и след като войната нахлува в живота на градчето и обръща живота на хората.",
+        "cover":"img/Kradetsyt_na_knigi.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Kradetsyt_na_knigi.pdf"
+      },
+      {
+        "title":"Аз преди теб",
+        "author":"Джоджо Мойс",
+        "genre":"Любовен роман",
+        "category":"ww",
+        "description":"Двадесет и шест годишната Луиза Кларк е обикновено момиче, което харесва обикновения си живот. Лу живее със семейството си в малка къща в провинциално английско градче. Младата жена обожава работата си в местното кафене и ексцентричните дрехи. Тя е доволна от спокойния си живот, възнамерява да се омъжи за дългогодишния си приятел Патрик и да му роди куп деца. Светът ѝ се преобръща, когато неочаквано загубва работата си. Наред с безпаричието, безработицата я кара да се чувства безполезна. Лу полага неимоверни усилия да си намери нова работа, но няколко седмици във фабрика за обработка на пилета и верига за бързо хранене я довеждат до ръба на отчаянието. Затова, когато ѝ предлагат да стане личен асистент на мъж с увреждания срещу добро заплащане, тя решава да опита.",
+        "cover":"img/Az-Predi-Teb.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Az-Predi-Teb.pdf"
+      },
+      {
+        "title":"Тетрадката",
+        "author":"Никълъс Спаркс",
+        "genre":"Любовен роман",
+        "category":"ww",
+        "description":"Понякога една любовна история така пленява сърцата ни, че престава да бъде просто история и се превръща в преживяване, което става част от собствения ни живот. “Тетрадката” е такава книга. Тя е възхвала на страстта, която може да бъде неостаряваща и вечна, разказ, който ни трогва до сълзи и отново, и отново ни кара да вярваме в истинската любов. Ной Калхун се е завърнал в Северна Каролина след края на Втората световна война, преследван от спомена за момичето, което е изгубил преди повече от десетилетие. Ели Нелсън, жена от висшето общество, скоро ще се омъжи за обещаващ млад адвокат, но не може да спре да мисли за момчето, което преди много време е откраднало сърцето й. Така започва историята за една любов, която е толкова упорита и дълбока, че може да превърне трагедията в триумф и дори има силата да сътвори едно чудо.",
+        "cover":"img/Tetradkata.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Tetradkata.pdf"
+      },
+      {
+        "title":"Малки жени",
+        "author":"Луиза Мей Олкът",
+        "genre":"Детска литература",
+        "category":"ww",
+        "description":"„Малки жени” е една от онези вечни детски класики, които се предават от поколение на поколение, от майка на дъщеря, между сестри или най-добри приятелки. Красивата Мег, смелата Джо, талантливата Бет и романтичната Ейми вече три века омайват милиони малки момичета по света, изпълват сърцата им със смях и сълзи, вдъхновяват ги да се вглеждат в себе си, да обичат близките си, да следват мечтите си… Вечният шедьовър на Луиза Мей Олкът е книга за всяко дете. По мил и деликатен начин тя предава своето послание за повече доброта, смирение и любов, от които имаме такава нужда във все по-объркания свят, в който живеем.",
+        "cover":"img/Malki_zheni.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Malki_zheni.pdf"
+      },
+      {
+        "title":"Алиса в Страната на чудесата",
+        "author":"Луис Карол",
+        "genre":"Детска литература",
+        "category":"ww",
+        "description":"Книгата представлява приказна история, чийто главен персонаж е малко момиченце на име Алиса, което, следвайки говорещ бял заек, попада в непознат и напълно объркан свят, пълен с причудливи и фантастични персонажи, много от които са алюзия към личните приятел на Доджсън. Самата Алиса е вдъхновена от реално съществуващо момиче, близка на автора. Творбата изобилства със сатира, символизъм и абстракции, което я прави един от най-характерните представители на литературния нонсенс. Повествователни линия и структура на „Алиса в страната на чудесата“ оказват огромно влияние върху жанровото развитие на фентъзито.",
+        "cover":"img/Alisa_v_stranata_na_chudesata.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Alisa_v_stranata_na_chudesata.pdf"
+      },
+      {
+        "title":"По следите на изгубеното време",
+        "author":"Марсел Пруст",
+        "genre":"Философски роман",
+        "category":"ww",
+        "description":"Едновременно съкровена изповед и документ за едно общество, психологическо изследване и поетична хроника, „По следите на изгубеното време“ представя затворения свят на буржоа и аристократи от началото на XX век, в който майсторското перо на Марсел Пруст разкрива как у един и същ индивид желанията и чувствата, подчинени на мощните сили на въображението, са винаги относителни и временни. Пространният и музикален строеж на фразата, тънката употреба на образни сравнения и метафори, импресионизмът на разказа, съвършената техника на вътрешния монолог са издигнали това произведение до жалон в световната литературна история.",
+        "cover":"img/Po_sledite_na_izgubenoto_vreme.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Po_sledite_na_izgubenoto_vreme.pdf"
+      },
+      {
+        "title":"Повелителят на мухите",
+        "author":"Уилям Голдинг",
+        "genre":"Модерна класика",
+        "category":"ww",
+        "description":"„Повелителят на мухите“ от Уилям Голдинг, или една от най-обичаните класики на всички времена ни напомнq за загубата на невинността и злото, което се крие във всеки от нас. Заглавието „Повелителят на мухите“ идва от буквален превод на името Велзевул – библейски демон, чието име означава „принц на летящите твари“ или „принц на мухите“. Когато самолет катастрофира на самотен остров, единствените оцелели са малка група момчета. Първоначалните им опити да намерят помощ от цивилизования свят и правилата, които си измислят, за да оцелеят, бързо биват забравени и преминават в неподозирани жестокости. Вината и срамът пораждат още насилие, а там, където законите на съвременната цивилизация не важат и се намесват тези на природата и инстинктите, остава само един въпрос – след като децата са спасени от възрастните, кой всъщност ще спаси самите възрастни?",
+        "cover":"img/Povelitelyat_na_muhite.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Povelitelyat_na_muhite.pdf"
+      },
+      {
+        "title":"Пътешествията на Гъливер",
+        "author":"Джонатан Суифт",
+        "genre":"Приключенски",
+        "category":"ww",
+        "description":"В тази необикновена книга са описани пътешествията на доктор Лемюел Гъливер. В земите на лилипутите тай тегли с една ръка цяла кралска флота, а в страната на великаните се дуелира с оси и пие от напръстник. Фантазията на автора не само забавлява малките читатели, но и с горчива усмивка им показва сложния свят на възрастните. Особено известно става и изданието на детската книга, която се състои от две части, в които Гъливер открива първо Страната на Лилипутите, а след това се озовава в Страната на Великаните, където всичко е дванадесет пъти по-голямо в сравнение с нормалния свят.",
+        "cover":"img/Pyteshestviyata_na_Gylivеr.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Pyteshestviyata_na_Gylivyr.pdf"
+      },
+      {
+        "title":"Приключенията на Хъкълбери Фин",
+        "author":"Марк Твен",
+        "genre":"Детска литература",
+        "category":"ww",
+        "description":"Хъкълбери Фин се отказва от богатството си и доброто поведение, за да е свободен да върши каквото си иска. Заедно с избягалия негър Джим се спускат със сал по река Мисисипи в едно невероятно пътуване през Америка. Решен да се отърве веднъж завинаги от пиянските побои на баща си и непрестанните поучения на госпожица Уотсън, Хъкълбери Фин напуска родния си град. На самотния остров, където се крие, съдбата го среща отново с негъра Джим. Двамата бегълци поемат с кану по течението на река Мисисипи, без да подозират в каква невероятна история ще ги забърка не друг, а верният на Хък - Том Сойер.",
+        "cover":"img/Prikliucheniyata_na_Hykylberi_Fin.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Prikliucheniyata_na_Hykylberi_Fin.pdf"
+      },
+      {
+        "title":"Емил от Льонеберя",
+        "author":"Астрид Линдгрен",
+        "genre":"Детска литература",
+        "category":"ww",
+        "description":"В началото на романа Емил е петгодишно хлапе, което изглежда добричко, когато не крещи, и за което никой в село Льонеберя не може и да допусне, че един ден ще стане председател на общинския съвет. Живее в стопанството Катхулт с баща си Антон Свенсон, майка си Алма и по-малката си сестричка Ида. Другите основни герои от романа са ратаят Алфред, прислужницата Лина и старата Кроса-Мая. По думите на Лина, Емил прави само пакости или ако не прави – то те му се случват. Всеки път, когато се провини, Емил бива наказан в бараката за дърва, където запълва времето до следващата лудория в дялкане на дървени човечета.",
+        "cover":"img/Emil_ot_Lioneberia.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Emil_ot_Lioneberia.pdf"
+      },
+      {
+        "title":"Мизъри",
+        "author":"Стивън Кинг",
+        "genre":"Трилър",
+        "category":"ww",
+        "description":"Действието в романа се развива около Пол Шелдън, автор на любовни романи-бестселъри, който, след автомобилна катастрофа, е спасен от жена на име Ани Уилкс, медицинска сестра, която твърди, че е най-голямата му почитателка. Тя отвежда Пол в дома си и започва да се грижи за него. Малко след това последният роман на Пол, Детето на Мизъри излиза от печат. Като разбира, че любимата ѝ героиня умира, Ани държи Пол като затворник, докато не напише нова книга, в която да върне живота на Мизъри.",
+        "cover":"img/Mizyri.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Mizyri.pdf"
+      }
+      {
+        "title":"Доктор Живаго",
+        "author":"Борис Пастернак",
+        "genre":"Исторически роман",
+        "category":"ww",
+        "description":"Романът носи името на главния герой Юрий Живаго, който е лекар и поет. „Доктор Живаго“ разказва за един мъж, разкъсван между две жени, по времето на Руската революция. Чувствителността и идеализмът на Живаго граничат с мистицизма. Разсейва се от красотата на ледените кристали по стъклото на прозорец. В медицинското училище един от професорите му напомня, че бактерията може и да изглежда красива, когато се гледа под микроскоп, но в живота върши ужасни неща на хората. Идеализмът на Юрий Живаго ярко контрастира на ужасите на Руската революция. Той става свидетел на канибализъм, осакатяване; вижда как един млад мъж е застрелян, защото иска да види своето семейство. Дори Лара, любовта на неговия живот, му е отнета.",
+        "cover":"img/Doktor_Zhivago.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Doktor_Zhivago.pdf"
+      },
+      {
+        "title":"Алхимикът",
+        "author":"Паулу Коелю",
+        "genre":"Съвременен роман",
+        "category":"ww",
+        "description":"Смайваща със своята неподправена простота и окриляваща мъдрост, тази история разказва за пастира Сантяго, който тръгва от родната си Испания към египетската пустиня, за да търси съкровище, заровено до Пирамидите. По пътя си той среща гадателка, крадец, мъж, който се представя като Царя на Салим, кервани и войни, Фатима – момичето от оазиса сред пясъците, и един алхимик. Всички те упътват Сантяго накъде да върви, но никой не знае какво е съкровището. За да го открие, младият пастир трябва да се научи да разчита поличбите и да се вслушва в сърцето си. Красива и емоционална, тази магическа притча е символ на преобразяващата сила на мечтите.",
+        "cover":"img/Alhimikut.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Alhimikut.pdf"
+      },
+      {
+        "title":"Монахът, който продаде своето Ферари",
+        "author":"Робин Шарма",
+        "genre":"Личностно развитие",
+        "category":"ww",
+        "description":"\"Монахът, който продаде своето ферари\" е историята на Джулиан Мантъл, адвокат със звездна репутация, чийто небалансиран стил на живот е причина за почти фатален сърдечен удар в претъпканата съдебна зала. Физическият срив води до духовна криза и Джулиан е принуден да преразгледа живота си и да потърси отговор на най-важните въпроси. С надежда да намери щастие и удовлетворение той се впуска в една изключителна одисея. Пътешествието му го отвежда дълбоко в Хималаите и там намира могъща система, чрез която освобождава потенциала на ума, тялото и душата, и се научава да живее с повече страст, цел и спокойствие. Тази вдъхновяваща приказка съчетава блестящо духовната мъдрост на Изтока с най-новите принципи на успеха от Запада и показва стъпка по стъпка пътя към живот с повече смелост, баланс, изобилие и радост.",
+        "cover":"img/monahyt_koito_prodade_svoeto_ferari.jpg",
+        "booklink":"books/Foreign books-Bulgarian/monahyt_koito_prodade_svoeto_ferari.pdf"
+      },
+      {
+        "title":"Дракула",
+        "author":"Брам Стокър",
+        "genre":"Готически роман",
+        "category":"ww",
+        "description":"\"Дракула\" съдържа цялото произведение – без пропуски, без добавени сцени, без преиначени изрази и думи. Включените бележки към него поясняват непознатото за съвременния читател, тълкуват замислите на автора и препращат към мненията на изтъкнати специалисти.Дракула е повече от въплъщение на готическия злодей. Tой се е превърнал в един от трайните символи в съвременната художествена литература. Ще е нужно нещо повече от чесън, светена вода и колове, за да го изчерпим… и цял легион критици, за да го обясним.",
+        "cover":"img/Drakula.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Drakula.pdf"
+      },
+      {
+        "title":"Тайната градина",
+        "author":"Франсис Бърнет",
+        "genre":"Детска литература",
+        "category":"ww",
+        "description":"\"Господарката Мери все се чумери\" - това е прякорът, който малката Мери Ленъкс получава преди да напусне Индия, за да заживее в имението Мисълтуейт при своя чичо. Капризно и разглезено, но и самотно и нещастно, момиченцето ще разбере, че в имението със стоте стаи се крият дълго пазени тайни. А най-голямата от тях ще промени живота й завинаги. С безброй приключения и нови приятелства Мери ще открие тайна градина, в която от години никой не е стъпвал. И подобно на природата, която всяка пролет се събужда за нов живот, в сърцето на Мери ще настъпи огромна промяна и в него ще разцъфне истинското щастие.",
+        "cover":"img/tainata_gradina.jpg",
+        "booklink":"books/Foreign books-Bulgarian/tainata_gradina.pdf"
+      },
+      {
+        "title":"Зеленият път",
+        "author":"Стивън Кинг",
+        "genre":"Фентъзи",
+        "category":"ww",
+        "description":"В клетките на затвора, издълбани в Студената планина по протежение на дълга редица, известна като Зеления път, изроди убийци, като психопата Били \"Хлапето\" Уортън и налудничавия Едуард Делакроа, оковани очакват смъртта си. Охраняват ги надзиратели като добрия Пол Еджкоум и садисти като Пърси Уетмор. Ала никой добър или лош, виновен или невинен не е виждал създание като новия затворник Джон Кофи, осъден на смърт за изнасилване и убийство на две момиченца... Дали Кофи е Дявол в човешки образ? Или е съвсем различна твар? В Рая и Ада има много повече чудеса, отколкото човек в Студената планина може да си представи... и това се разбира, докато истината започва да изплува във вид на шокови вълни, които само Стивън Кинг е в състояние да създаде!",
+        "cover":"img/Zeleniyat_pyt.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Zeleniyat_pyt.pdf"
+      },
+      {
+        "title":"Разум и чувства",
+        "author":"Джейн Остин",
+        "genre":"Любовен роман",
+        "category":"ww",
+        "description":"\"Разум и чувства\" е първият роман на знаменитата английска писателка. Макар че самата тя скромно описва работата си като \"малко парченце слонова кост, не по-голямо от няколко сантиметра, което обработвам с толкова нежна четка, че въпреки огромните ми усилия, резултатът е почти незабележим\" още в тази първа творба, без да определя хората като добри или лоши, мъдри или наивни, Джейн Остин с много остроумие и задълбоченост рисува живота на английската аристокрация. Младостта е онова благословено време в живота на всеки, когато всички пътища изглеждат близки и всички мечти - осъществими. Но дори и тогава се преплитат, преливат и определят съдбата ни разумът и чувството. Тези две основни начала в човешкото битие са въплътени в образите на прекрасните героини - сестрите Елинор и Мариан. Нежни, блестящи, красиви, изпълнени с амбиции и артистичност, те се различават и допълват, търсейки щастието си.",
+        "cover":"img/Razum_i_chuvstva.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Razum_i_chuvstva.pdf"
+      },
+      {
+        "title":"Алената буква",
+        "author":"Натаниъл Хоторн",
+        "genre":"Историческа фантастика",
+        "category":"ww",
+        "description":"В очакване на предстоящото публично наказание на блудница пред бостънската тъмница се е събрала тълпа. През портата на затвора излиза млада и красива жена с бебе в ръце. Хестър Прин е осъдена на излагане на позорния стълб заради раждането на незаконно дете и отказа й да разкрие името на бащата. Твърдо решена да понесе достойно унижението, тя крачи уверено под възмутените погледи на съгражданите си. На гърдите й, върху ален плат, стои, ръчно избродирана, буквата на прелюбодейството. Хестър ще носи този знак до края на дните си. С непреклонния си дух обаче тя ще преобърне значението му, заклеймявайки на свой ред дребнавата отмъстителност и пуританското тесногръдие.",
+        "cover":"img/Alenata_bukva.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Alenata_bukva.pdf"
+      },
+      {
+        "title":"Татуировчикът на Аушвиц",
+        "author":"Хедър Морис",
+        "genre":"Исторически роман",
+        "category":"ww",
+        "description":"През 1942 г. Лали Соколов е на 24 години. Живее в Братислава, има добра работа, приятели, хубав живот, говори добре няколко езика и е любимец на жените. Властите по това време искат от всяко еврейско семейство да изпрати момче над осемнайсет години да работи за немците и той решава да го направи, за да спаси близките си. Така се оказва доброволно депортиран в Аушвиц-Биркенау. Там му е възложено да татуира върху ръцете на останалите лагерници номерата, с които са обозначени. Един ден през юли на опашката пред него се нарежда уплашено момиче. За Лали това е любов от пръв поглед и той се заклева не само, че ще оцелее, а и че ще се погрижи Гита също да доживее свободата. Татуировчикът на Аушвиц е роман, базиран на живота на Лудвиг Айсенберг, или Лали Соколов, когото животът в лагера среща с бруталността, ужаса, смъртта, доктор Менгеле, университетски преподаватели, СС офицери, престъпници и обикновени хора, но и с любовта. img/tatuirovchikyt_na_aushvitz.jpg",
+        "cover":"img/tatuirovchikyt_na_aushvitz.jpg",
+        "booklink":"books/Foreign books-Bulgarian/tatuirovchikyt_na_aushvitz.pdf"
+      },
+      {
+        "title":"Яж, моли се и обичай",
+        "author":"Елизабет Гилбърт",
+        "genre":"Любовен роман",
+        "category":"ww",
+        "description":"Елизабет Гилбърт e млада омъжена жена, която не е щастлива от семейния си живот. След мъчителен развод и бурна любовна връзка тя е съсипана и объркана, но и свободна както никога преди. Лиз се отправя на едногодишно пътешествие в търсене на щастието и равновесието в живота си. Най-напред прекарва четири месеца в Рим, където учи италиански с помощта на красиви братя близнаци, въздържа се от романтична обвързаност (въпреки близнаците) и напълнява с десет килограма. След това прекарва четири месеца в ашрам в Индия, където установява, че за да постигнеш просветление, трябва да си готов дори да ставаш посред нощ и да търкаш пода на храма. Там успява да обуздае част от демоните в себе си. Накрая се озовава на Бали, където беззъб шаман на неизвестна възраст й показва нов път към покоя - просто седи и се усмихвай. И ето че щастието бавно пропълзява в нея и я завладява.",
+        "cover":"img/Yazh_moli_se_i_obichai.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Yazh_moli_se_i_obichai.pdf"
+      },
+      {
+        "title":"Домът на мис Перигрин за чудати деца",
+        "author":"Рансъм Ригс",
+        "genre":"Фентъзи",
+        "category":"ww",
+        "description":"След ужасна семейна трагедия шестнайсетгодишният Джейкъб тръгва на път към далечен остров край брега на Уелс, където открива развалините на дома на мис Перегрин за чудати деца. Докато изследва изоставените му стаи и коридори, Джейкъб разбира, че децата на мис Перегрин са били не просто чудати. Може би са били опасни и неслучайно изолирани на самотен остров. И може би – колкото и невероятно да изглежда – са още живи. Смразяващо фентъзи, илюстрирано с призрачни стари снимки. „Домът на мис Перегрин за чудати деца“ ще достави удоволствие на всички, които имат вкус към приключенията в света на сенките – възрастни и тийнейджъри.",
+        "cover":"img/Domyt_na_mis_Perigrin_za_chudati_detsa.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Domyt_na_mis_Perigrin_za_chudati_detsa.pdf"
+      },
+      {
+        "title":"Богат, беден",
+        "author":"Ъруин Шоу",
+        "genre":"Съвременен роман",
+        "category":"ww",
+        "description":"Джордах са американска фамилия, в чиято история се преплитат вечните теми за любовта, омразата и сблъсъка между поколенията. Майката и бащата са озлобени един срещу друг неудачници, които са твърде далеч от сбъдването на американската мечта. Трите им деца са обречени да градят живота си от дъното. Единият син, Рудолф, е прилежен ученик, който упорито и неотклонно се стреми към богатство и обществено признание. Брат му Том е агресивен неудачник, който умее да получава своето само със силата на юмруците си. Сестра им Гретхен е лекомислена хубавица, която мисли, че лесният и приятен живот е на една ръка разстояние, но греши. Тримата наследници на фамилията Джордах поемат в различни посоки, решени да не повтарят грешките на родителите си, но кръвта вода не става. И колкото и да различни да са житейските им избори, те винаги се оказват зависими един от друг. А парите не са и никога няма да бъдат мерило за това кой е постигнал щастието.",
+        "cover":"img/Bogat_Beden.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Bogat_Beden.pdf"
+      },
+      {
+        "title":"Цифрова крепост",
+        "author":"Дан Браун",
+        "genre":"Научна фантастика",
+        "category":"ww",
+        "description":"Мистериозно кодирано съобщение разтърсва коридорите на властта... Когато непобедимият компютър на Агенцията за Национална Сигурност за разбиване на шифри се сблъсква с мистериозно кодирано съобщение, с което не може да се справи, Агенцията се обръща към старшия си криптолог Сюзан Флечър - гениално умна и красива математичка. И тя разкрива нещо, което разтърсва коридорите на властта. АНС е в опасност, но не от оръдия или бомби, а заради сложен код, който ако стане публично достояние, ще постави под заплаха устоите на американското разузнаване. “Цифрова крепост” е най-добрият и най-реалистичен технотрилър от години. ",
+        "cover":"img/Tsifrova_krepost.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Tsifrova_krepost.pdf"
+      },
+      {
+        "title":"Нощният цирк",
+        "author":"Ерин Моргънстърн",
+        "genre":"Фентъзи",
+        "category":"ww",
+        "description":"Добре дошли в „Циркът на мечтите“: в тези бяло-черни раирани палатки ви очаква уникално преживяване – ще се изгубите в лабиринт от облаци, ще бродите безцелно през тучни ледени градини и ще се взирате учудени в татуираната акробатка, която се прегъва в малка стъклена кутия. Зад дима и огледалата обаче се крие жестоко състезание – дуел между двама млади илюзионисти. Находчиви врагове инструктори са обучили още от малки Силия и Марко специално за тази цел. От състезателите остава скрита жестока истина – съревнованието е безпощадна игра, в която само един ще оцелее, а циркът е сцената за забележителните битки на въображението им. Но когато Силия и Марко наивно се впускат с главата напред в своята любов, инструкторите им се намесват и предизвикват опасни последствия.",
+        "cover":"img/Noshtniyat_tsirk.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Noshtniyat_tsirk.pdf"
+      },
+      {
+        "title":"Сняг",
+        "author":"Орхан Памук",
+        "genre":"Съвременен роман",
+        "category":"ww",
+        "description":"Годината е 1992. Ка, поет и политически емигрант, се завръща в Турция. Възложено му е да направи журналистическо разследване на някои обезпокоителни събития в малкия, загадъчен град Карс близо до границата с Армения. Ка пристига в Карс, съпроводен от обилен снеговалеж, и скоро пътищата се затварят. Пограничният град изпада в пълна изолация. Такъв го вижда поетът - град, изтерзан от политически вражди в навечерието на избори, град, над който е надвиснала сянката на поредица от самоубийства на млади Жени. Ка съзнава, че за да разбере всичко, което се е случило в родината му през годините на неговото отсъствие, е длъжен да види събитията от гледна точка на всички участници - на враждуващите страни и на изпадналите в апатия и объркване наблюдатели. Последното нещо, което е очаквал, е че ще се озове насред инсцениран преврат, че ще бъде заплетен в политически и религиозни конспирации, че дните, прекарани в затрупания от сняг град, ще го накарат да погледне на себе си и на света по нов начин.",
+        "cover":"img/Snyag.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Snyag.pdf"
+      },
+      {
+        "title":"Конникът без глава",
+        "author":"Майн Рид",
+        "genre":"Приключенски роман",
+        "category":"ww",
+        "description":"Сънят на тексаския елен е смутен от тропота на конски копита. В ясната лунна светлина, на южното небе еленът разпознава най-безмилостния от враговете си - човека. Приближава се ездач на кон. В прекрасния жребец нищо не предизвиква учудване или уплаха. Но конникът? В него има нещо страшно - нещо липсва. Господи! Главата!Разказът за този конник без глава ще превърне Майн Рид (1818-1883) в един от най-любимите писатели на приключенски романи за поколения млади читатели.",
+        "cover":"img/Konnikyt_bez_glava.jpg",
+        "booklink":"books/Foreign books-Bulgarian/Konnikyt_bez_glava.pdf"
+      }
+      
 ]  
