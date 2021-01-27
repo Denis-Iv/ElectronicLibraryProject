@@ -6,21 +6,21 @@ var currentCategory = document.getElementById('identifier').innerText;
 search.addEventListener('input', () => searchBooks(search.value, categFilter, authorFilter));
 
 const searchBooks = async (searchText, categFilter, authorFilter) => {
-    const res = await fetch('../Frontend/data/sample.json');
+    const res = await fetch('../Frontend/data/books.json');
     const books = await res.json();
 
     let matches = books.filter(book => {
         const regex = new RegExp(`^${searchText}`, 'gi');
-        return  (book.description.match(regex) || book.imageurl.match(regex)) && 
+        return  (book.author.match(regex) || book.title.match(regex)) && 
                 (book.category == currentCategory) && 
-                (book.description == categFilter || categFilter == "") &&
-                (book.description == authorFilter || authorFilter == "");
+                (book.genre == categFilter || categFilter == "") &&
+                (book.author == authorFilter || authorFilter == "");
     });    
 
     //console.log(matches);
 
     if (matches.length === 0) {
-        booksList.innerHTML = `<p class="no-books">No matches found.</p>`;
+        booksList.innerHTML = `<p class="no-books">Няма намерени резултати.</p>`;
     }
     else {
         displayBooks(matches);
@@ -28,22 +28,23 @@ const searchBooks = async (searchText, categFilter, authorFilter) => {
 };
 
 const displayBooks = (books) => {
-    const htmlString = books.map((book) => {
+    const htmlString = books.map((book) => {        
+        console.log(book);
         return `  
         <div class="book-tile">     
-            <a href="#openModal"><img src="img/the-great-gatsby.jpg" width="225px" height= "315px"></a>      
-            <h1>${book.description}</h1>  
+            <a href="#${book.title}"><img src="${book.cover}" width="225px" height= "315px"></a>      
+            <h1>${book.title}</h1>  
         </div>
 
-        <div id="openModal" class="modalDialog">
+        <div id="${book.title}" class="modalDialog">
             <div>
                 <a href="#close" title="Затвори" class="close">X</a>
-                <h1>${book.description}</h1>
-                <h2>F. Scott Fitzgerald</h2>
-                <h4>Genre: Tragedy</h4>
+                <h1>${book.title}</h1>
+                <h2>${book.author}</h2>
+                <h4>Жанр: ${book.genre}</h4>
 
-                <p>The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, the novel depicts narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan. The novel was inspired by a youthful romance Fitzgerald had with a socialite, and by parties he attended on Long Island's North Shore in 1922. Following a move to the French Riviera, he completed a rough draft in 1924. After submitting the draft to editor Maxwell Perkins, the editor persuaded Fitzgerald to revise the work over the following winter. Despite being happy with the content of the text after revision, Fitzgerald was ambivalent about the book's title and considered a variety of alternatives. The final title that he was documented to have desired was Under the Red, White, and Blue. Fitzgerald was, however, happy with painter Francis Cugat's final cover design.</p>
-                <a href="books/English books/the-great-gatsby.pdf">
+                <p>${book.description}</p>
+                <a href="${book.booklink}">
                 <button class="buttonRead">Прочети</button>
                 </a>
             </div>
@@ -65,7 +66,7 @@ let authorFilter = "";
 
 function setCategFilter(value) {     
     categFilter = value;
-    searchBooks("", categFilter, authorFilter);
+    searchBooks(search.value, categFilter, authorFilter);
 }
 
 function setAuthorFilter(value) {

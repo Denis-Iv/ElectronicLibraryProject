@@ -90,6 +90,7 @@ main {
 
 .nav-link svg {
     min-width: 2rem;
+    max-width: 1.5rem;
     margin: 0 1.5rem; 
     fill: rgba(255, 166, 0, 0.788);   
 }
@@ -120,7 +121,7 @@ main {
 
 .logo svg {
     transform: scale(1.5);
-    transition: 200ms;    
+    transition: 100ms;    
 }
 
 .navbar:hover .logo svg {
@@ -480,7 +481,7 @@ margin-top: -1rem;
     border-style: groove;
     box-shadow: 2px 3px 6px #888888;
     background-color: var(--bg-primary);
-    max-width: 240px;
+    max-width: 240px;    
 }
 
 .book-tile > h1 {
@@ -498,6 +499,10 @@ margin-top: -1rem;
     font-size: 1.25rem ; 
     text-align: left; 
     margin-left: 3px;   
+}
+
+.book-tile > img {
+    cursor: pointer;
 }
 
 

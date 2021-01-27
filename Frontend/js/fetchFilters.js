@@ -20,11 +20,11 @@ const nullAuthFilter = `
 
 
 const fetchCategories = async () => {
-    const res = await fetch('../Frontend/data/sample.json');
+    const res = await fetch('../Frontend/data/books.json');
     const categories = await res.json();
 
     let matches = categories.filter(category => {         
-            return category.description && (category.category == currentCategory);  
+            return (category.genre) && (category.category == currentCategory);  
     }); 
 
     displayCategories(matches);
@@ -34,21 +34,21 @@ const displayCategories = (categories) => {
     const htmlString = categories.map((category) => {       
         return `         
         <li class="filter">
-            <input class="filter-select" type="radio" value="${category.description}" name="radioCateg" onclick="setCategFilter(value)">
-            <label class="filter-label" for="${category.description}">${category.description}</label">
+            <input class="filter-select" type="radio" value="${category.genre}" name="radioCateg" onclick="setCategFilter(value)">
+            <label class="filter-label" for="${category.genre}">${category.genre}</label">
         </li>    
         `;
     }).join('');
 
-    categoriesList.innerHTML = nullCatFilter + htmlString;
+    categoriesList.innerHTML = nullCatFilter + htmlString;  
 }
 
 const fetchAuthors = async () => {
-    const res = await fetch('../Frontend/data/sample.json');
+    const res = await fetch('../Frontend/data/books.json');
     const authors = await res.json();
 
     let matches = authors.filter(author => {         
-            return author.description && (author.category == currentCategory);  
+            return author.author && (author.category == currentCategory);  
     }); 
 
     displayAuthors(matches);
@@ -58,8 +58,8 @@ const displayAuthors = (authors) => {
     const htmlString = authors.map((author) => {       
         return `         
         <li class="filter">
-            <input class="filter-select" type="radio" value="${author.description}" name="radioAuthor" onclick="setAuthorFilter(value)">
-            <label class="filter-label" for="${author.description}">${author.description}</label>
+            <input class="filter-select" type="radio" value="${author.author}" name="radioAuthor" onclick="setAuthorFilter(value)">
+            <label class="filter-label" for="${author.author}">${author.author}</label>
         </li>    
         `;
     }).join('');
