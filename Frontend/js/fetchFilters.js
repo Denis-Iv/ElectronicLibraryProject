@@ -25,9 +25,16 @@ const fetchCategories = async () => {
 
     let matches = categories.filter(category => {         
             return (category.genre) && (category.category == currentCategory);  
-    }); 
+    });     
 
-    displayCategories(matches);
+    const seen = new Set();
+    const uniqueMatches = matches.filter(e => {
+        const duplicate = seen.has(e.genre);
+        seen.add(e.genre);
+        return !duplicate;
+    });
+
+    displayCategories(uniqueMatches);
 };
 
 const displayCategories = (categories) => {
@@ -51,7 +58,14 @@ const fetchAuthors = async () => {
             return author.author && (author.category == currentCategory);  
     }); 
 
-    displayAuthors(matches);
+    const seen = new Set();
+    const uniqueMatches = matches.filter(e => {
+        const duplicate = seen.has(e.author);
+        seen.add(e.author);
+        return !duplicate;
+    });
+
+    displayAuthors(uniqueMatches);
 };
 
 const displayAuthors = (authors) => {
