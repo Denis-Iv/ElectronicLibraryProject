@@ -436,8 +436,7 @@ margin-top: -1rem;
     padding-inline-start: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 230px));
-    grid-gap: 20px;
-    
+    grid-gap: 20px;    
 }
 
 .content-flow {    
@@ -455,7 +454,6 @@ margin-top: -1rem;
     background-color: var(--bg-secondary);
     border: 2px var(--border-color);
     border-style: groove;
-
 }
 
 .main-content {
@@ -472,6 +470,8 @@ margin-top: -1rem;
 .no-books {
     text-align: center;
     font-size: 1.5rem;
+    overflow: visible;
+    white-space: nowrap;
 }
 
 /* Book tile */
@@ -530,9 +530,10 @@ margin-top: -1rem;
   }
 
   /* Filters */
+
 .filter {
     display: flex;
-    align-items:center;
+    align-items: center;
 }
 
 .filter-label {

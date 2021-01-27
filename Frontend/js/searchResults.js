@@ -19,7 +19,7 @@ const searchBooks = async (searchText, categFilter, authorFilter) => {
 
     //console.log(matches);
 
-    if (matches.length === 0) {
+    if (matches.length === 0) {       
         booksList.innerHTML = `<p class="no-books">Няма намерени резултати.</p>`;
     }
     else {
