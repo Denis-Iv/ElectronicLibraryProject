@@ -34,6 +34,8 @@ const fetchCategories = async () => {
         return !duplicate;
     });
 
+    uniqueMatches.sort((a, b) => a.genre.localeCompare(b.genre, 'bg', {ignorePuctuation: true}));
+
     displayCategories(uniqueMatches);
 };
 
@@ -64,6 +66,8 @@ const fetchAuthors = async () => {
         seen.add(e.author);
         return !duplicate;
     });
+
+    uniqueMatches.sort((a, b) => a.author.localeCompare(b.author, 'bg', {ignorePuctuation: true}));
 
     displayAuthors(uniqueMatches);
 };

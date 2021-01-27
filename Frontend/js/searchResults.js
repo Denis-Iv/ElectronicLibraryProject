@@ -29,7 +29,7 @@ const searchBooks = async (searchText, categFilter, authorFilter) => {
 
 const displayBooks = (books) => {
     const htmlString = books.map((book) => {        
-        console.log(book);
+        //console.log(book);
         return `  
         <div class="book-tile">     
             <a href="#${book.title}"><img src="${book.cover}" width="225px" height= "315px"></a>      
@@ -54,9 +54,7 @@ const displayBooks = (books) => {
 
     //console.log(htmlString);
 
-    booksList.innerHTML = htmlString;
-
-    
+    booksList.innerHTML = htmlString;    
 };
 
 searchBooks("","","");
