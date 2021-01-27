@@ -453,8 +453,8 @@
         "title":"Anne Frank: The Diary of a Young Girl",
         "author":"Anne Frank",
         "genre":"Nonfiction",
-        "category":"A beloved classic since its initial publication in 1947, this vivid, insightful journal is a fitting memorial to the gifted Jewish teenager who died at Bergen-Belsen, Germany, in 1945. Born in 1929, Anne Frank received a blank diary on her 13th birthday, just weeks before she and her family went into hiding in Nazi-occupied Amsterdam. Her marvelously detailed, engagingly personal entries chronicle 25 trying months of claustrophobic, quarrelsome intimacy with her parents, sister, a second family, and a middle-aged dentist who has little tolerance for Anne's vivacity. The diary's universal appeal stems from its riveting blend of the grubby particulars of life during wartime (scant, bad food; shabby, outgrown clothes that can't be replaced; constant fear of discovery) and candid discussion of emotions familiar to every adolescent (everyone criticizes me, no one sees my real nature, when will I be loved?). Yet Frank was no ordinary teen: the later entries reveal a sense of compassion and a spiritual depth remarkable in a girl barely 15. Her death epitomizes the madness of the Holocaust, but for the millions who meet Anne through her diary, it is also a very individual loss.",
-        "description":"",
+        "category":"en",
+        "description":"A beloved classic since its initial publication in 1947, this vivid, insightful journal is a fitting memorial to the gifted Jewish teenager who died at Bergen-Belsen, Germany, in 1945. Born in 1929, Anne Frank received a blank diary on her 13th birthday, just weeks before she and her family went into hiding in Nazi-occupied Amsterdam. Her marvelously detailed, engagingly personal entries chronicle 25 trying months of claustrophobic, quarrelsome intimacy with her parents, sister, a second family, and a middle-aged dentist who has little tolerance for Anne's vivacity. The diary's universal appeal stems from its riveting blend of the grubby particulars of life during wartime (scant, bad food; shabby, outgrown clothes that can't be replaced; constant fear of discovery) and candid discussion of emotions familiar to every adolescent (everyone criticizes me, no one sees my real nature, when will I be loved?). Yet Frank was no ordinary teen: the later entries reveal a sense of compassion and a spiritual depth remarkable in a girl barely 15. Her death epitomizes the madness of the Holocaust, but for the millions who meet Anne through her diary, it is also a very individual loss.",
         "cover":"img/the-diary-of-a-young-girl.jpg",
         "booklink":"books/English books/the_diary_of_a_young_girl.pdf"
       },
@@ -554,7 +554,7 @@
         "genre":"Detective fiction",
         "category":"en",
         "description":"In general the stories in The Adventures of Sherlock Holmes identify, and try to correct, social injustices. Holmes is portrayed as offering a new, fairer sense of justice. The stories were well received, and boosted the subscriptions figures of The Strand Magazine, prompting Doyle to be able to demand more money for his next set of stories. The first story, A Scandal in Bohemia, includes the character of Irene Adler, who, despite being featured only within this one story by Doyle, is a prominent character in modern Sherlock Holmes adaptations, generally as a love interest for Holmes. Doyle included four of the twelve stories from this collection in his twelve favourite Sherlock Holmes stories, picking The Adventure of the Speckled Band as his overall favourite.",
-        "cover":"img/the-adventures...",
+        "cover":"img/the-adventures.jpg",
         "booklink":"books/English books/the-adventures-of-sherlock-holmes.pdf"
       },
       {
@@ -601,7 +601,7 @@
         "description":"An Antarctic Mystery was written in 1897, in response to Edgar Allan Poe's 1838 novel The Narrative of Arthur Gordon Pym of Nantucket. It follows the adventures of the narrator and his journey from the Kerguelen Islands aboard the ship Halbrane to the South Pole. During their adventures, they find the source of strong magnetic fields, an Ice Sphinx. This edition contains both parts of the original novel.",
         "cover":"img/an-antarctic-mystery.jpg",
         "booklink":"books/English books/an-antarctic-mystery.pdf"
-      }
+      },
       {
         "title":"Robinson Crusoe",
         "author":"Daniel Defoe",
@@ -1150,7 +1150,7 @@
         "description":"Действието в романа се развива около Пол Шелдън, автор на любовни романи-бестселъри, който, след автомобилна катастрофа, е спасен от жена на име Ани Уилкс, медицинска сестра, която твърди, че е най-голямата му почитателка. Тя отвежда Пол в дома си и започва да се грижи за него. Малко след това последният роман на Пол, Детето на Мизъри излиза от печат. Като разбира, че любимата ѝ героиня умира, Ани държи Пол като затворник, докато не напише нова книга, в която да върне живота на Мизъри.",
         "cover":"img/Mizyri.jpg",
         "booklink":"books/Foreign books-Bulgarian/Mizyri.pdf"
-      }
+      },
       {
         "title":"Доктор Живаго",
         "author":"Борис Пастернак",

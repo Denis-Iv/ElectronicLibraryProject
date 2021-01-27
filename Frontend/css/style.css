@@ -435,8 +435,9 @@ margin-top: -1rem;
 #books-list {
     padding-inline-start: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(230px, 230px));
     grid-gap: 20px;
+    
 }
 
 .content-flow {    
@@ -529,6 +530,14 @@ margin-top: -1rem;
   }
 
   /* Filters */
+.filter {
+    display: flex;
+    align-items:center;
+}
+
+.filter-label {
+    flex: 1;
+}
 
   .col > h6 {
       text-align: center;
@@ -548,6 +557,7 @@ margin-top: -1rem;
       padding: 5px;
       font-size: 0.9rem;
   }
+
 
   .filter-select {
       margin-right: 1ch;
