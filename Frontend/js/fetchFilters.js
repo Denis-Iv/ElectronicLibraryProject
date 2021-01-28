@@ -2,8 +2,8 @@ const categoriesList = document.getElementById('categories-list');
 const authorsList = document.getElementById('authors-list');
 var currentCategory = document.getElementById('identifier').innerText;
 
-//console.log(currentCategory);
 
+// Radio бутони, които изчистват зададения филтър съответно за жанр или автор
 const nullCatFilter = `
                     <li class="filter">
                         <input class="filter-select" type="radio" name="radioCateg" value="" checked="true" onclick="setCategFilter(value)">
@@ -20,13 +20,16 @@ const nullAuthFilter = `
 
 
 const fetchCategories = async () => {
+    // Чете се json файла с информацията за книгите
     const res = await fetch('../Frontend/data/books.json');
     const categories = await res.json();
 
+    // Отделят се книгите само от конкретната категория (книги на български, на английски или чуждестранни)
     let matches = categories.filter(category => {         
             return (category.genre) && (category.category == currentCategory);  
     });     
 
+    // Премахват се дублираните жанрове
     const seen = new Set();
     const uniqueMatches = matches.filter(e => {
         const duplicate = seen.has(e.genre);
@@ -34,8 +37,10 @@ const fetchCategories = async () => {
         return !duplicate;
     });
 
+    // Жанровете се сортират по азбучен ред
     uniqueMatches.sort((a, b) => a.genre.localeCompare(b.genre, 'bg', {ignorePuctuation: true}));
 
+    // Вика се функцията, която генерира бутоните като html
     displayCategories(uniqueMatches);
 };
 

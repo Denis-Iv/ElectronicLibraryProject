@@ -1,11 +1,14 @@
+// Зарежда менюто за навигация
 $.get("components/navigation.html", function(data){
     $("#nav-placeholder").replaceWith(data);
 });
 
+// Зарежда футъра
 $.get("components/footer.html", function(data){
     $("#footer-placeholder").replaceWith(data);
 });
 
+// Зарежда бутоните за показване на повече или по-малко филтри
 $(function() {        
     $('.filters-list').each(function() {
         var $list = $(this);
@@ -21,5 +24,5 @@ $(function() {
 
     setTimeout(function() {
             $('.more-less').trigger('click');
-        },80);   
+        },100);   
 })

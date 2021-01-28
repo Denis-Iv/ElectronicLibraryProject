@@ -2,13 +2,14 @@ const search = document.getElementById('search');
 const booksList = document.getElementById('books-list');
 var currentCategory = document.getElementById('identifier').innerText;
 
-
 search.addEventListener('input', () => searchBooks(search.value, categFilter, authorFilter));
 
 const searchBooks = async (searchText, categFilter, authorFilter) => {
+    // Чете книгите от файла
     const res = await fetch('../Frontend/data/books.json');
     const books = await res.json();
 
+    // Изваждат се само книгите, които съвпадат с въведеното от потребителя и избраните филтри
     let matches = books.filter(book => {
         const regex = new RegExp(`^${searchText}`, 'gi');
         return  (book.author.match(regex) || book.title.match(regex)) && 
@@ -19,6 +20,7 @@ const searchBooks = async (searchText, categFilter, authorFilter) => {
 
     //console.log(matches);
 
+    // Ако няма намерени резултати се показва текст. Ако има резултати се вика функцията, която ги изобразява
     if (matches.length === 0) {       
         booksList.innerHTML = `<p class="no-books">Няма намерени резултати.</p>`;
     }
@@ -62,11 +64,13 @@ searchBooks("","","");
 let categFilter = "";
 let authorFilter = "";
 
+// Променя текущия филтър за жанр, когато потребителят избере нов
 function setCategFilter(value) {     
     categFilter = value;
     searchBooks(search.value, categFilter, authorFilter);
 }
 
+// Променя текущия филтър за автор, когато потребителят избере нов
 function setAuthorFilter(value) {
     authorFilter = value;
     searchBooks(search.value, categFilter, authorFilter);
