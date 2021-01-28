@@ -437,6 +437,7 @@ margin-top: -1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 230px));
     grid-gap: 20px;    
+    justify-content: space-around;
 }
 
 .content-flow {    
