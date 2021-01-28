@@ -24,5 +24,5 @@ $(function() {
 
     setTimeout(function() {
             $('.more-less').trigger('click');
-        },100);   
+        },200);   
 })
